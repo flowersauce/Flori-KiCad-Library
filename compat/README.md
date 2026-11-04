@@ -41,4 +41,4 @@ python tools/sync_compat.py
 需要迁移工程内缓存定义时，使用 KiCad 的库更新或封装替换工具。
 
 首次注册见[开发维护流程](../docs/development-workflow.md)。
-当前 ID 与路径映射见[Flori 迁移记录](../docs/flori-migration-2026-11-04.json)。
+当前 ID 与路径映射见[Flori 迁移记录](../docs/audits/flori-migration-2026-11-04.json)。

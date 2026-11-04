@@ -14,7 +14,7 @@
 - 日常配置中的 `kicad_common.json`、`sym-lib-table`、`fp-lib-table`、`installed_packages.json` 与测试前 SHA-256 一致。
 
 测试环境使用独立的配置、用户资料和 PCM 目录。未删除或重定向日常库表，未修改官方安装目录。
-本轮启动的测试 KiCad 进程已关闭。测试产物位于已忽略的 `dist/` 和 `tmp/`，不提交到 Git。
+本轮启动的测试 KiCad 进程已关闭。临时测试产物及备份已在验证后清理，记录保留在本文件中。
 
 ## 尚待确认
 

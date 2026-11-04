@@ -111,7 +111,7 @@ def package_payload(root: Path, identifier: str, version: str) -> dict[str, byte
         ("imported-stock-assets-2026-11-04.json", "imported-stock-assets.json"),
         ("flori-migration-2026-11-04.json", "flori-migration.json"),
     ):
-        record = json.loads((root / "docs" / source).read_text(encoding="utf-8"))
+        record = json.loads((root / "docs/audits" / source).read_text(encoding="utf-8"))
         record.pop("backup", None)
         payload[f"resources/provenance/{target}"] = json_bytes(record)
     return payload

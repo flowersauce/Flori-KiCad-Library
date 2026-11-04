@@ -22,9 +22,9 @@ resources/
 - [自定义 3D 模型](../3dmodels/)：分类与封装库一致。
 - [数据手册](datasheets/)：手册、产品简介和厂商承认书。
 - [CAD 图纸](drawings/)：可编辑或供参考的 DWG 图纸。
-- [资源外置记录](../docs/resource-migration-2026-11-04.json)：原文件名、嵌入附件来源、
+- [资源外置记录](../docs/audits/resource-migration-2026-11-04.json)：原文件名、嵌入附件来源、
   SHA-256 和引用变更。此文件属于历史记录，日常更新不需要修改。
-- [Flori 分类与命名迁移记录](../docs/flori-migration-2026-11-04.json)：新旧库 ID、分类及模型路径映射。
+- [Flori 分类与命名迁移记录](../docs/audits/flori-migration-2026-11-04.json)：新旧库 ID、分类及模型路径映射。
   较早审计记录中的文件名表示当时的状态。
 
 ## 配置一台设备
@@ -97,7 +97,7 @@ python tools/configure_library.py --register-libraries
 
 HTTP 403 可能只是限制自动访问；HTTP 200 也可能返回 HTML 错误页，而非 PDF。
 只有确认替换链接属于正确厂商和文档后，才替换原有可用链接。
-[链接整理记录](../docs/datasheet-links-2026-11-04.json)保存了当次修改及有限范围的 HTTP 检查结果。
+[链接整理记录](../docs/audits/datasheet-links-2026-11-04.json)保存了当次修改及有限范围的 HTTP 检查结果。
 
 曾放入 KiCad 安装目录的下载模型，参见[官方封装与补充模型导入说明](../docs/stock-model-supplements.md)。
 日常 Git 更新和重新注册时机见[开发维护流程](../docs/development-workflow.md)。

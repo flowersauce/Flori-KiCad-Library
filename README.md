@@ -36,6 +36,7 @@
 
 具体规则见[资源维护与 PCM 路径映射](resources/README.md)。
 多台开发机频繁修改库时，按[Git 工作副本维护流程](docs/development-workflow.md)操作。
+设备配置、兼容刷新和打包等维护入口见[工具说明](tools/README.md)。
 旧 `Flowersauce_*` 和 `PCM_Flowersauce_*` 名称由生成的[兼容层](compat/README.md)支持。
 导入的上游资源保留各自许可证，详见[授权与来源说明](LICENSES/README.md)。
 
@@ -58,5 +59,5 @@
 - `Description` 尽量使用中文，`ki_keywords` 保留英文检索词。
 - 库字段中不保存供应商、价格或临时导入元数据。
 
-[Flori 迁移记录](docs/flori-migration-2026-11-04.json)保存旧 ID 和资源路径到当前结构的映射。
+[Flori 迁移记录](docs/audits/flori-migration-2026-11-04.json)保存旧 ID 和资源路径到当前结构的映射。
 更早的审计记录保留当时的名称。本地项目目录和 Git 远程地址目前保持原样，上游仓库改名暂缓处理。
