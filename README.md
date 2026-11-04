@@ -37,6 +37,7 @@
 具体规则见[资源维护与 PCM 路径映射](resources/README.md)。
 多台开发机频繁修改库时，按[Git 工作副本维护流程](docs/development-workflow.md)操作。
 设备配置、兼容刷新和打包等维护入口见[工具说明](tools/README.md)。
+自动化维护约定见 [AGENTS.md](AGENTS.md)，打包输入与触发规则统一维护在 `tools/pcm-inputs.json`。
 旧 `Flowersauce_*` 和 `PCM_Flowersauce_*` 名称由生成的[兼容层](compat/README.md)支持。
 导入的上游资源保留各自许可证，详见[授权与来源说明](LICENSES/README.md)。
 

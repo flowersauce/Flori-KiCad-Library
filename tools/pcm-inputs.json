@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "metadata": "pcm/metadata.json",
+  "files": [
+    {"source": "symbols/Flori_*.kicad_sym"},
+    {"source": "footprints/Flori_*.pretty/*.kicad_mod"},
+    {"source": "3dmodels/Flori_*.3dshapes/*", "suffixes": [".step", ".stp", ".wrl"]},
+    {"source": "resources/datasheets/**/*", "suffixes": [".pdf"]},
+    {"source": "resources/drawings/**/*", "suffixes": [".dwg"]},
+    {"source": "tools/configure_pcm.py", "target": "resources/configure_pcm.py"},
+    {"source": "tools/library_io.py", "target": "resources/library_io.py"},
+    {"source": "pcm/INSTALL_zh.md", "target": "resources/INSTALL_zh.md"},
+    {"source": "pcm/LICENSES_zh.md", "target": "resources/licenses/README.md"},
+    {"source": "LICENSE", "target": "resources/licenses/LICENSE"},
+    {"source": "LICENSES/KiCad-Libraries-LICENSE.md", "target": "resources/licenses/KiCad-Libraries-LICENSE.md"},
+    {
+      "source": "docs/audits/imported-stock-assets-2026-11-04.json",
+      "target": "resources/provenance/imported-stock-assets.json",
+      "json_remove": ["backup"]
+    },
+    {
+      "source": "docs/audits/flori-migration-2026-11-04.json",
+      "target": "resources/provenance/flori-migration.json",
+      "json_remove": ["backup"]
+    }
+  ],
+  "build_inputs": [
+    "tools/build_pcm.py",
+    "tools/pcm_manifest.py",
+    "tools/sync_compat.py",
+    "tools/library-layout.json",
+    ".github/workflows/pcm-package.yml"
+  ]
+}

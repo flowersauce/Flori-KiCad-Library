@@ -3,24 +3,6 @@ name: PCM 打包与发布
 on:
   push:
     branches: ['**']
-    # 仅监听安装包输入和构建逻辑；普通维护文档不触发打包。
-    paths:
-      - 'symbols/**'
-      - 'footprints/**'
-      - '3dmodels/**'
-      - 'resources/datasheets/**'
-      - 'resources/drawings/**'
-      - 'pcm/**'
-      - 'tools/build_pcm.py'
-      - 'tools/configure_pcm.py'
-      - 'tools/library_io.py'
-      - 'tools/sync_compat.py'
-      - 'tools/library-layout.json'
-      - 'docs/audits/imported-stock-assets-2026-11-04.json'
-      - 'docs/audits/flori-migration-2026-11-04.json'
-      - 'LICENSE'
-      - 'LICENSES/KiCad-Libraries-LICENSE.md'
-      - '.github/workflows/pcm-package.yml'
   pull_request:
     types: [opened, synchronize, reopened]
   workflow_dispatch:
@@ -45,7 +27,27 @@ concurrency:
   queue: max
 
 jobs:
+  changes:
+    runs-on: ubuntu-latest
+    outputs:
+      build: ${{ steps.inputs.outputs.build }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: 检查共用清单逻辑
+        run: python -B -m unittest discover -s tests -p 'test_pcm_manifest.py'
+      - name: 根据共用清单判断是否打包
+        id: inputs
+        run: python -B tools/pcm_manifest.py
+
   package:
+    needs: changes
+    if: needs.changes.outputs.build == 'true'
     runs-on: ubuntu-latest
     outputs:
       version: ${{ steps.parameters.outputs.version }}

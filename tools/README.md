@@ -6,6 +6,7 @@
 | `sync_compat.py` | 从主库刷新旧库定义和本机历史资源链接 |
 | `configure_pcm.py` | PCM 安装后的旧工程兼容配置；运行包内副本 |
 | `build_pcm.py` | 生成 PCM 包、摘要和在线索引；CI 自动调用 |
+| `pcm-inputs.json`、`pcm_manifest.py` | 共用打包输入清单、文件收集和 CI 变更判断 |
 | `library_io.py`、`library-layout.json` | 以上工具共用的解析逻辑与历史映射 |
 
 只将长期维护、反复使用的通用工具放在这里。具体器件的一次性生成脚本不收入本库，
@@ -16,3 +17,6 @@
 
 一次性的迁移、翻译和调试脚本完成任务后删除；`tmp/` 和 `dist/` 是短期工作目录，任务结束后清理。
 可追溯的迁移与授权记录放在 `docs/audits/`，不要靠临时备份目录长期保存项目知识。
+
+维护规则见根目录 [AGENTS.md](../AGENTS.md)，清单格式与 CI 跳过规则见
+[PCM 打包说明](../docs/pcm-packaging.md)。

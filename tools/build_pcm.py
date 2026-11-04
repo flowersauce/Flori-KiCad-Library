@@ -15,6 +15,7 @@ from urllib.error import HTTPError
 from urllib.request import urlopen
 
 from sync_compat import compatibility_outputs, load_layout
+from pcm_manifest import collect_files, load_manifest
 
 
 def json_bytes(value: object) -> bytes:
@@ -34,21 +35,7 @@ def package_payload(root: Path, identifier: str, version: str) -> dict[str, byte
     """只收集明确的库与资源类型；兼容定义直接从当前主库生成。"""
     layout = load_layout(root)
     clean_identifier = identifier.replace(".", "_")
-    payload: dict[str, bytes] = {}
-    patterns = (
-        "symbols/Flori_*.kicad_sym",
-        "footprints/Flori_*.pretty/*.kicad_mod",
-        "3dmodels/Flori_*.3dshapes/*",
-        "resources/datasheets/**/*",
-        "resources/drawings/**/*",
-    )
-    allowed = {".kicad_sym", ".kicad_mod", ".step", ".stp", ".wrl", ".pdf", ".dwg"}
-    for pattern in patterns:
-        for path in sorted(root.glob(pattern)):
-            if path.is_file() and path.suffix.lower() in allowed:
-                if not path.resolve().is_relative_to(root):
-                    raise ValueError(f"资源链接指向仓库外：{path}")
-                payload[path.relative_to(root).as_posix()] = path.read_bytes()
+    payload = collect_files(root, load_manifest(root))
     for path, data in compatibility_outputs(root, layout).items():
         payload[path.relative_to(root / "compat").as_posix()] = data
     if not any(name.startswith("symbols/Flori_") for name in payload):
@@ -98,22 +85,6 @@ def package_payload(root: Path, identifier: str, version: str) -> dict[str, byte
         "legacy_libraries": legacy,
         "resource_aliases": resource_aliases,
     })
-    for source, target in (
-        ("tools/configure_pcm.py", "resources/configure_pcm.py"),
-        ("tools/library_io.py", "resources/library_io.py"),
-        ("pcm/INSTALL_zh.md", "resources/INSTALL_zh.md"),
-        ("pcm/LICENSES_zh.md", "resources/licenses/README.md"),
-        ("LICENSE", "resources/licenses/LICENSE"),
-        ("LICENSES/KiCad-Libraries-LICENSE.md", "resources/licenses/KiCad-Libraries-LICENSE.md"),
-    ):
-        payload[target] = (root / source).read_bytes()
-    for source, target in (
-        ("imported-stock-assets-2026-11-04.json", "imported-stock-assets.json"),
-        ("flori-migration-2026-11-04.json", "flori-migration.json"),
-    ):
-        record = json.loads((root / "docs/audits" / source).read_text(encoding="utf-8"))
-        record.pop("backup", None)
-        payload[f"resources/provenance/{target}"] = json_bytes(record)
     return payload
 
 
@@ -139,7 +110,7 @@ def main() -> None:
     if args.previous_packages and args.previous_packages_url:
         parser.error("上一版索引只能选择文件或 URL 之一")
     root = Path(__file__).resolve().parents[1]
-    metadata = json.loads((root / "pcm/metadata.json").read_text(encoding="utf-8"))
+    metadata = json.loads((root / load_manifest(root)["metadata"]).read_text(encoding="utf-8"))
     identifier = metadata["identifier"]
     if not re.fullmatch(r"[A-Za-z][-A-Za-z0-9.]{0,98}[A-Za-z0-9]", identifier):
         parser.error("PCM 包标识不合法")
