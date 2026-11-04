@@ -1,0 +1,427 @@
+{
+  "date": "2026-11-04",
+  "backup": "tmp/backups/datasheet-links-20261104-6ecd8b04",
+  "changes": [
+    {
+      "file": "symbols/Flowersauce_Active.kicad_sym",
+      "name": "BH1751FVI-TR",
+      "field": "Datasheet",
+      "before": "https://item.szlcsc.com/datasheet/BH1751FVI-TR/420475.html?lcsc_vid=RFIMVFdWFVEIVFBQRAIPVwBQRQBaBFxTFVMNVVFUElcxVlNQRVJXUF1WR1dYXztW",
+      "after": "https://item.szlcsc.com/datasheet/BH1751FVI-TR/420475.html"
+    },
+    {
+      "file": "symbols/Flowersauce_Active.kicad_sym",
+      "name": "BQ76905RGR",
+      "field": "Datasheet",
+      "before": "https://www.ti.com.cn/cn/lit/ds/symlink/bq76905.pdf?ts=1779878033561",
+      "after": "https://www.ti.com/lit/ds/symlink/bq76905.pdf"
+    },
+    {
+      "file": "symbols/Flowersauce_Active.kicad_sym",
+      "name": "G3VM-61xx",
+      "field": "Datasheet",
+      "before": "https://item.szlcsc.com/datasheet/G3VM-61VY3(TR)/2244366.html",
+      "after": "https://components.omron.com/us-en/datasheet_pdf/K282-E1.pdf"
+    },
+    {
+      "file": "symbols/Flowersauce_Active.kicad_sym",
+      "name": "TMI7003C",
+      "field": "Datasheet",
+      "before": "https://item.szlcsc.com/datasheet/TMI7003C/896951.html?spm=sc.it.pdf.fd___sc.gbn.xh1.zy.n&lcsc_vid=FlkIVQJUFQNaBVwDQQUKUgcHRQALVVJTEgdaUlxWFVQxVlNeRldaV1xRQlJeUzsOAxUeFF5JWAIASQYPGQZABAsLWA%3D%3D",
+      "after": "https://item.szlcsc.com/datasheet/TMI7003C/896951.html"
+    },
+    {
+      "file": "symbols/Flowersauce_Active.kicad_sym",
+      "name": "TPA2012D2RTJ",
+      "field": "Datasheet",
+      "before": "https://www.ti.com.cn/cn/lit/ds/symlink/tpa2012d2.pdf?ts=1782267618459&ref_url=https%253A%252F%252Fwww.ti.com.cn%252Fproduct%252Fcn%252FTPA2012D2",
+      "after": "https://www.ti.com/lit/ds/symlink/tpa2012d2.pdf"
+    },
+    {
+      "file": "symbols/Flowersauce_Active.kicad_sym",
+      "name": "TPS55340RTER",
+      "field": "Datasheet",
+      "before": "https://www.ti.com.cn/cn/lit/ds/symlink/tps55340.pdf?ts=1763197923910&ref_url=https%253A%252F%252Fwww.ti.com.cn%252Fproduct%252Fcn%252FTPS55340",
+      "after": "https://www.ti.com/lit/ds/symlink/tps55340.pdf"
+    },
+    {
+      "file": "symbols/Flowersauce_Active.kicad_sym",
+      "name": "TPS61023",
+      "field": "Datasheet",
+      "before": "https://www.ti.com/lit/ds/symlink/tps61023.pdf?ts=1761055803483&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS61023%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dapp-null-null-GPN_EN-cpc-pf-google-ww_en_cons%2526utm_content%253DTPS61023%2526ds_k%253DTPS61023%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D1767856010%2526gbraid%253D0AAAAAC068F2pqMlP9Na7JRjn_GojTF8hu%2526gclid%253DCjwKCAjw3tzHBhBREiwAlMJoUny4CTQI1npVC9wP2IEzwIS9v2GzStk8MhKlU4NA7dlja0jbNAw2iRoC89wQAvD_BwE",
+      "after": "https://www.ti.com/lit/ds/symlink/tps61023.pdf"
+    },
+    {
+      "file": "symbols/Flowersauce_Active.kicad_sym",
+      "name": "TRS3232EIDR",
+      "field": "Datasheet",
+      "before": "https://www.ti.com/cn/lit/ds/symlink/trs3232e.pdf?ts=1761010689636",
+      "after": "https://www.ti.com/lit/ds/symlink/trs3232e.pdf"
+    },
+    {
+      "file": "symbols/Flowersauce_Passive.kicad_sym",
+      "name": "Buzzer_MLT-5020",
+      "field": "Datasheet",
+      "before": "https://item.szlcsc.com/datasheet/MLT-5020/95796.html?lcsc_vid=FQRfBVxUTgRXAVNRFlleVVcCFAMIVlJeRQMPBldQE1QxVlNQRVVcXlZWRlddXjtW",
+      "after": "https://item.szlcsc.com/datasheet/MLT-5020/95796.html"
+    },
+    {
+      "file": "symbols/Flowersauce_Passive.kicad_sym",
+      "name": "ESD_Protection_RCLAMP0524PATCT_4Ch",
+      "field": "Datasheet",
+      "before": "https://item.szlcsc.com/datasheet/RClamp0524PATCT/41944.html?lcsc_vid=QQdeAwJQR1kNVVMHFlVaUVQFFFRfBgUARANYXwIHRVExVlNTTlNeVFZfRVBYUTtW",
+      "after": "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0524pa"
+    },
+    {
+      "file": "symbols/Flowersauce_Passive.kicad_sym",
+      "name": "ESD_Protection_RCLAMP3324P.TCT_4Ch",
+      "field": "Datasheet",
+      "before": "https://item.szlcsc.com/datasheet/RCLAMP3324P.TCT/512372.html",
+      "after": "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp3324p"
+    },
+    {
+      "file": "symbols/Flowersauce_Passive.kicad_sym",
+      "name": "Motor_Vibration_Z3OC1T8219731",
+      "field": "Datasheet",
+      "before": "https://item.szlcsc.com/datasheet/Z3OC1T8219731/3130478.html?lcsc_vid=FQRfBVxUTgRXAVNRFlleVVcCFAMIVlJeRQMPBldQE1QxVlNQRVdcVlJfQFhcUztW",
+      "after": "https://item.szlcsc.com/datasheet/Z3OC1T8219731/3130478.html"
+    },
+    {
+      "file": "footprints/Flowersauce_Active.pretty/SOP-4_4.4x3.9mm_P2.54mm.kicad_mod",
+      "name": "SOP-4_4.4x3.9mm_P2.54mm",
+      "field": "Description",
+      "before": "https://item.szlcsc.com/datasheet/G3VM-61VY3(TR)/2244366.html",
+      "after": "https://components.omron.com/us-en/datasheet_pdf/K282-E1.pdf"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/TerminalBlock_HCTL_HC15EDGRC-3.81-2P_1x02_P3.81mm_Horizontal.kicad_mod",
+      "name": "TerminalBlock_HCTL_HC15EDGRC-3.81-2P_1x02_P3.81mm_Horizontal",
+      "field": "Datasheet",
+      "before": "https://item.szlcsc.com/datasheet/HC15EDGRC-3.81-4P-V/23830850.html?lcsc_vid=FVdcVQBVElZaBFBXT1RfVgBWE1hbAgZUFlFeUV1QFlAxVlNQRlBfVlxVR1NfVTtW",
+      "after": "https://item.szlcsc.com/datasheet/HC15EDGRC-3.81-4P-V/23830850.html"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/TerminalBlock_HCTL_HC15EDGRC-3.81-3P_1x03_P3.81mm_Horizontal.kicad_mod",
+      "name": "TerminalBlock_HCTL_HC15EDGRC-3.81-3P_1x03_P3.81mm_Horizontal",
+      "field": "Datasheet",
+      "before": "https://item.szlcsc.com/datasheet/HC15EDGRC-3.81-4P-V/23830850.html?lcsc_vid=FVdcVQBVElZaBFBXT1RfVgBWE1hbAgZUFlFeUV1QFlAxVlNQRlBfVlxVR1NfVTtW",
+      "after": "https://item.szlcsc.com/datasheet/HC15EDGRC-3.81-4P-V/23830850.html"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/TerminalBlock_HCTL_HC15EDGRC-3.81-4P_1x04_P3.81mm_Horizontal.kicad_mod",
+      "name": "TerminalBlock_HCTL_HC15EDGRC-3.81-4P_1x04_P3.81mm_Horizontal",
+      "field": "Datasheet",
+      "before": "https://item.szlcsc.com/datasheet/HC15EDGRC-3.81-4P-V/23830850.html?lcsc_vid=FVdcVQBVElZaBFBXT1RfVgBWE1hbAgZUFlFeUV1QFlAxVlNQRlBfVlxVR1NfVTtW",
+      "after": "https://item.szlcsc.com/datasheet/HC15EDGRC-3.81-4P-V/23830850.html"
+    },
+    {
+      "file": "footprints/Flowersauce_Passive.pretty/ESD_Protection_RCLAMP0524PATCT_4Ch.kicad_mod",
+      "name": "ESD_Protection_RCLAMP0524PATCT_4Ch",
+      "field": "Datasheet",
+      "before": "https://item.szlcsc.com/datasheet/RClamp0524PATCT/41944.html?lcsc_vid=QQdeAwJQR1kNVVMHFlVaUVQFFFRfBgUARANYXwIHRVExVlNTTlNeVFZfRVBYUTtW",
+      "after": "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0524pa"
+    },
+    {
+      "file": "footprints/Flowersauce_Passive.pretty/ESD_Protection_RCLAMP3324P.TCT_4Ch.kicad_mod",
+      "name": "ESD_Protection_RCLAMP3324P.TCT_4Ch",
+      "field": "Datasheet",
+      "before": "https://item.szlcsc.com/datasheet/RCLAMP3324P.TCT/512372.html",
+      "after": "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp3324p"
+    },
+    {
+      "file": "footprints/Flowersauce_Passive.pretty/Motor_Vibration_Z3OC1T8219731_SMD.kicad_mod",
+      "name": "Motor_Vibration_Z3OC1T8219731_SMD",
+      "field": "Datasheet",
+      "before": "https://item.szlcsc.com/datasheet/Z3OC1T8219731/3130478.html?lcsc_vid=FQRfBVxUTgRXAVNRFlleVVcCFAMIVlJeRQMPBldQE1QxVlNQRVdcVlJfQFhcUztW",
+      "after": "https://item.szlcsc.com/datasheet/Z3OC1T8219731/3130478.html"
+    }
+  ],
+  "http_review": [
+    {
+      "url": "https://assets.nexperia.com/documents/data-sheet/74LVC163.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20160918/1474166842057.pdf",
+      "status": 206,
+      "resolved_url": "https://atta.szlcsc.com/upload/public/pdf/source/20160918/1474166842057.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20171113/C139797_15105612676371115729.pdf",
+      "status": 206,
+      "resolved_url": "https://atta.szlcsc.com/upload/public/pdf/source/20171113/C139797_15105612676371115729.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20200421/C517005_603C0DEA482298D49C4A683B370EB739.pdf",
+      "status": 206,
+      "resolved_url": "https://atta.szlcsc.com/upload/public/pdf/source/20200421/C517005_603C0DEA482298D49C4A683B370EB739.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20211029/5A76838C591B377E5BF09726BF37DE5A.pdf",
+      "status": 206,
+      "resolved_url": "https://atta.szlcsc.com/upload/public/pdf/source/20211029/5A76838C591B377E5BF09726BF37DE5A.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20220114/11502D73C3389E33A97A0F910664C73C.pdf",
+      "status": 206,
+      "resolved_url": "https://atta.szlcsc.com/upload/public/pdf/source/20220114/11502D73C3389E33A97A0F910664C73C.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20230324/911CCC9AED4D08C5524FEEE67794B079.pdf",
+      "status": 206,
+      "resolved_url": "https://atta.szlcsc.com/upload/public/pdf/source/20230324/911CCC9AED4D08C5524FEEE67794B079.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20240119/282D91DF1FF2F356589DBAE55ECF10C0.pdf",
+      "status": 206,
+      "resolved_url": "https://atta.szlcsc.com/upload/public/pdf/source/20240119/282D91DF1FF2F356589DBAE55ECF10C0.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20241025/B727298C5414C3C5ABE117B98BE89235.pdf",
+      "status": 206,
+      "resolved_url": "https://atta.szlcsc.com/upload/public/pdf/source/20241025/B727298C5414C3C5ABE117B98BE89235.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20250108/8D5BB022A4F54A123FFA22B8A2B37484.pdf",
+      "status": 206,
+      "resolved_url": "https://atta.szlcsc.com/upload/public/pdf/source/20250108/8D5BB022A4F54A123FFA22B8A2B37484.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20250424/F46D859656128E650F27DD9268819767.pdf",
+      "status": 206,
+      "resolved_url": "https://atta.szlcsc.com/upload/public/pdf/source/20250424/F46D859656128E650F27DD9268819767.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20250812/A9B443FB770AA42A34C92B1A15093C54.pdf",
+      "status": 206,
+      "resolved_url": "https://atta.szlcsc.com/upload/public/pdf/source/20250812/A9B443FB770AA42A34C92B1A15093C54.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20250915/D2A7C26C046CFC3A0C70BF04B40C5686.pdf",
+      "status": 206,
+      "resolved_url": "https://atta.szlcsc.com/upload/public/pdf/source/20250915/D2A7C26C046CFC3A0C70BF04B40C5686.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://file.xunpu.com.cn/uploadfile/202311/85902145fc5e516.pdf",
+      "status": 206,
+      "resolved_url": "https://file.xunpu.com.cn/uploadfile/202311/85902145fc5e516.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://item.szlcsc.com/datasheet/BH1751FVI-TR/420475.html",
+      "status": 200,
+      "resolved_url": "https://item.szlcsc.com/datasheet/BH1751FVI-TR/420475.html",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://item.szlcsc.com/datasheet/G3VM-61VY3(TR)/2244366.html",
+      "status": 200,
+      "resolved_url": "https://item.szlcsc.com/datasheet/G3VM-61VY3(TR)/2244366.html",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://item.szlcsc.com/datasheet/HC15EDGRC-3.81-4P-V/23830850.html",
+      "status": 200,
+      "resolved_url": "https://item.szlcsc.com/datasheet/HC15EDGRC-3.81-4P-V/23830850.html",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://item.szlcsc.com/datasheet/MLT-5020/95796.html",
+      "status": 200,
+      "resolved_url": "https://item.szlcsc.com/datasheet/MLT-5020/95796.html",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://item.szlcsc.com/datasheet/RCLAMP3324P.TCT/512372.html",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://item.szlcsc.com/datasheet/RClamp0524PATCT/41944.html",
+      "status": 200,
+      "resolved_url": "https://item.szlcsc.com/datasheet/RClamp0524PATCT/41944.html",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://item.szlcsc.com/datasheet/SIQ-02FVS3/3244962.html",
+      "status": 200,
+      "resolved_url": "https://item.szlcsc.com/datasheet/SIQ-02FVS3/3244962.html",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://item.szlcsc.com/datasheet/TF-021B-H265/510272.html",
+      "status": 200,
+      "resolved_url": "https://item.szlcsc.com/datasheet/TF-021B-H265/510272.html",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://item.szlcsc.com/datasheet/TMI7003C/896951.html",
+      "status": 200,
+      "resolved_url": "https://item.szlcsc.com/datasheet/TMI7003C/896951.html",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://item.szlcsc.com/datasheet/Z3OC1T8219731/3130478.html",
+      "status": 200,
+      "resolved_url": "https://item.szlcsc.com/datasheet/Z3OC1T8219731/3130478.html",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://opensource.rock-chips.com/images/b/b6/Rockchip_RK3568_Datasheet_V1.3-20220929P.PDF",
+      "status": 206,
+      "resolved_url": "https://opensource.rock-chips.com/images/b/b6/Rockchip_RK3568_Datasheet_V1.3-20220929P.PDF",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://toshiba-semicon-storage.com/info/TBD62083AFG_datasheet_en_20160511.pdf?did=29893&prodName=TBD62083AFG",
+      "status": 200,
+      "resolved_url": "https://toshiba-semicon-storage.com/info/TBD62083AFG_datasheet_en_20160511.pdf?did=29893&prodName=TBD62083AFG",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/max13487e-max13488e.pdf",
+      "status": 206,
+      "resolved_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/max13487e-max13488e.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://www.comtrue-inc.com/files/ct7601/CT7601%20Brief%20Data%20Sheet.pdf",
+      "status": 206,
+      "resolved_url": "https://www.comtrue-inc.com/files/ct7601/CT7601%20Brief%20Data%20Sheet.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://www.issi.com/WW/pdf/42-45S83200J-16160J.pdf",
+      "status": 206,
+      "resolved_url": "https://www.issi.com/WW/pdf/42-45S83200J-16160J.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://www.jscj-elec.com/gallery/file/CJAE10P06%C2%A0DFNWB3%C3%973-8L%C2%A0V1.3.pdf",
+      "status": 206,
+      "resolved_url": "https://www.jscj-elec.com/gallery/file/CJAE10P06%C2%A0DFNWB3%C3%973-8L%C2%A0V1.3.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://www.silergy.com/zh/download/downloadFile?ftype=note&id=4351&type=product",
+      "status": 200,
+      "resolved_url": "https://www.silergy.com/zh/download/downloadFile?ftype=note&id=4351&type=product",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://www.sinhoost.cn/Product/1346.html",
+      "status": 206,
+      "resolved_url": "https://www.sinhoost.cn/Product/1346.html",
+      "content_type": "text/html",
+      "pdf_header": false
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/bq76905.pdf",
+      "status": 206,
+      "resolved_url": "https://www.ti.com/lit/ds/symlink/bq76905.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tca9543a.pdf",
+      "status": 206,
+      "resolved_url": "https://www.ti.com/lit/ds/symlink/tca9543a.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tpa2012d2.pdf",
+      "status": 206,
+      "resolved_url": "https://www.ti.com/lit/ds/symlink/tpa2012d2.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tps55340.pdf",
+      "status": 206,
+      "resolved_url": "https://www.ti.com/lit/ds/symlink/tps55340.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tps61023.pdf",
+      "status": 206,
+      "resolved_url": "https://www.ti.com/lit/ds/symlink/tps61023.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/trs3232e.pdf",
+      "status": 206,
+      "resolved_url": "https://www.ti.com/lit/ds/symlink/trs3232e.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://www.tokyocoil.com/wp-content/themes/tokyo_coil/pdf/ttrn/TTRN-087S.pdf",
+      "status": 206,
+      "resolved_url": "https://www.tokyocoil.com/wp-content/themes/tokyo_coil/pdf/ttrn/TTRN-087S.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://www.yxc.hk/uploadfiles/2025/08/YXC-YSO110TR.pdf",
+      "status": 206,
+      "resolved_url": "https://www.yxc.hk/uploadfiles/2025/08/YXC-YSO110TR.pdf?AspxAutoDetectCookieSupport=1",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    }
+  ],
+  "manufacturer_sources": {
+    "G3VM-61VY3": "https://components.omron.com/us-en/products/relays/G3VM-6-G--61VY-/G3VM-61VY3",
+    "RClamp3324P": "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp3324p",
+    "RClamp0524PA": "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0524pa"
+  },
+  "notes": [
+    "Only known tracking parameters were removed; functional document identifiers were retained.",
+    "HTTP 403 indicates automated access was blocked, not that a document is missing.",
+    "HTTP 200 HTML is not proof of a working PDF. Publisher product pages are used when a stable PDF URL is unavailable.",
+    "The original RCLAMP3324P.TCT distributor URL returned HTTP 404; it was replaced by the publisher documentation page.",
+    "The Omron PDF is linked from the publisher and indexed as a datasheet; this HTTP client received 403."
+  ]
+}

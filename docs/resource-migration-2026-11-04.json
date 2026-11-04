@@ -1,0 +1,1104 @@
+{
+  "date": "2026-11-04",
+  "path_variable": "FLOWERSAUCE_KICAD_DIR",
+  "backup": "tmp/backups/resource-externalization-20261104-c29e2eac",
+  "assets": [
+    {
+      "path": "3dmodels/Flowersauce_Active.3dshapes/Allwinner_H61x_TFBGA-284_14x12mm_Layout21x18_P0.65mm.step",
+      "kind": "model",
+      "sha256": "1a0731b52804533679ed1f46907e31d7de597fdfb70325c23dede21a26679ab1",
+      "bytes": 1595830,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Active.pretty/Allwinner_H61x_TFBGA-284_14x12mm_Layout21x18_P0.65mm.kicad_mod",
+          "embedded_name": "Allwinner_H61x.step",
+          "embedded_checksum": "56D78158CDC5C31863FE1DF78EE62E19"
+        },
+        {
+          "file": "3dmodel/Allwinner_H61x/Allwinner_H61x.step"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Active.3dshapes/BGA-200_10x14.5mm_Layout12x22_P0.8x0.65mm.step",
+      "kind": "model",
+      "sha256": "5f48c3498da6c3d55a2a77704fba6954b68c4e7bbedb65602b64542b17cedbbf",
+      "bytes": 811574,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Active.pretty/BGA-200_10x14.5mm_Layout12x22_P0.8x0.65mm.kicad_mod",
+          "embedded_name": "BGA-200_10x14.5mm_Layout12x22_P0.8x0.65mm.STEP",
+          "embedded_checksum": "FBF24DE45E38F57FE68087DEA5E9BED4"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Active.3dshapes/BGA-200_10x14.5mm_Layout12x22_P0.8x0.65mm_Source_7f0c71e1.step",
+      "kind": "model",
+      "sha256": "7f0c71e10acb98346de2c89f1fc3bc13def00a6fb95c64c3f83ca7b50ff46eb1",
+      "bytes": 828006,
+      "origins": [
+        {
+          "file": "3dmodel/BGA-200/BGA-200_10x14.5mm_Layout12x22_P0.8x0.65mm.STEP"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Active.3dshapes/CFSensor_XGZP6859D_7x7mm.step",
+      "kind": "model",
+      "sha256": "d3b10a5e4a496cf0411fd5a6ea069600fcb0fd0657d9f49d1f6527089cf648b6",
+      "bytes": 724290,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Active.pretty/CFSensor_XGZP6859D_7x7mm.kicad_mod",
+          "embedded_name": "CFSensor_XGZP6859D_7x7mm.STEP",
+          "embedded_checksum": "9F6CC2DA75A59CB111E8536E3B354644"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Active.3dshapes/JSCJ_DFNWB-8_3x3mm_P0.65mm.step",
+      "kind": "model",
+      "sha256": "a6f9e998da72f6a77af2e1db41aa430ffed16448f780111d53b00bd85710d2c1",
+      "bytes": 374897,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Active.pretty/JSCJ_DFNWB-8_3x3mm_P0.65mm.kicad_mod",
+          "embedded_name": "JSCJ_DFNWB-8_3x3mm_P0.65mm.step",
+          "embedded_checksum": "41ECEBD6590A683BA1EF8FF46ED8D773"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Active.3dshapes/QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm.step",
+      "kind": "model",
+      "sha256": "137120c74719633f3dbb07071a2743aa74696c6a59490a38834c6c73caa0e152",
+      "bytes": 283647,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Active.pretty/QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm.kicad_mod",
+          "embedded_name": "QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm.step",
+          "embedded_checksum": "358A3778C51877A125ABF931D93A06EB"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Active.3dshapes/Rockchip_RK3568_TFBGA-644_19x19mm_Layout28x28_P0.65mm.step",
+      "kind": "model",
+      "sha256": "00c9bde93ed2102be60e1ffbaaa20a17c236f6e3cccdabe04a8a247a09ed26f9",
+      "bytes": 9202698,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Active.pretty/Rockchip_RK3568_TFBGA-644_19x19mm_Layout28x28_P0.65mm.kicad_mod",
+          "embedded_name": "Rockchip_RK3568.step",
+          "embedded_checksum": "F46F0E72328691C99A454050AF18E056"
+        },
+        {
+          "file": "3dmodel/Rockchip_RK3568/Rockchip_RK3568.step"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Active.3dshapes/SOP-4_4.4x3.9mm_P2.54mm.step",
+      "kind": "model",
+      "sha256": "b33176484a24069f57f5267ebf5a4ece4d4ea680f9cadf4ee5de5d94a70fdbf0",
+      "bytes": 260718,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Active.pretty/SOP-4_4.4x3.9mm_P2.54mm.kicad_mod",
+          "embedded_name": "OMRON_G3VM-61xx.step",
+          "embedded_checksum": "C7B9F208EC07FEA8BBA354B93C4EFCD5"
+        },
+        {
+          "file": "3dmodel/OMRON_G3VM-61xx/OMRON_G3VM-61xx.step"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Active.3dshapes/Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad.step",
+      "kind": "model",
+      "sha256": "515cac10747621b6cc0f057956820e129997aa87e4466eb69ecdb5e31fad1644",
+      "bytes": 98219,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Active.pretty/Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad.kicad_mod",
+          "embedded_name": "SHT4x.step",
+          "embedded_checksum": "0422A3ADCA3A1C806814CBB745E1524B"
+        },
+        {
+          "file": "3dmodel/SHT4x/SHT4x.step"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Active.3dshapes/WSOF-6-1EP_2.6x1.6mm_P0.5mm_EP1.5x1.2mm.step",
+      "kind": "model",
+      "sha256": "d629f1edb53d5107d19f01fadaacf5146f17af2660783bec4a813f7778eefbdb",
+      "bytes": 1168163,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Active.pretty/WSOF-6-1EP_2.6x1.6mm_P0.5mm_EP1.5x1.2mm.kicad_mod",
+          "embedded_name": "WSOF-6.STEP",
+          "embedded_checksum": "55A17F5C0B1BA8B1B2C83B57F689AEB7"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/DSUB-9_Socket_XUNPU_D-SUB-DR-9PCM-CB_Horizontal.step",
+      "kind": "model",
+      "sha256": "9dfbea3263db99eb90a5998db87f59f35ae0c9a9cdbeaf3b56fcf25fe33966e6",
+      "bytes": 2067957,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Connectors.pretty/DSUB-9_Socket_XUNPU_D-SUB-DR-9PCM-CB_Horizontal.kicad_mod",
+          "embedded_name": "D-SUB-DR-9PCM-CB.step",
+          "embedded_checksum": "12E4AA324D2B76A597875235F4F8C06D"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/FPC_HCTL_HC-FPC-05-09-NRLTAG_1x05_P0.5mm_Horizontal.step",
+      "kind": "model",
+      "sha256": "bf26d990f2412b52cee1047b32130379bf5c06603baa6d6cbcbb78038fa6ed8c",
+      "bytes": 873034,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Connectors.pretty/FPC_HCTL_HC-FPC-05-09-NRLTAG_1x05_P0.5mm_Horizontal.kicad_mod",
+          "embedded_name": "HC-FPC-05-09-5RLTAG.STEP",
+          "embedded_checksum": "37049AADA337A947EA3B0B3C48A25523"
+        },
+        {
+          "file": "3dmodel/HC-FPC/HC-FPC-05-09-5RLTAG.STEP"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/HDMI_A_Receptacle_G-Switch_GT-HD001A-FNNG0_Horizontal.step",
+      "kind": "model",
+      "sha256": "57f7494431f97951f6b05c93c7cf197d2bb31a354cdb564498faac017d6de4d1",
+      "bytes": 4628273,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Connectors.pretty/HDMI_A_Receptacle_G-Switch_GT-HD001A-FNNG0_Horizontal.kicad_mod",
+          "embedded_name": "GT-HD001A-FNNG0.STEP",
+          "embedded_checksum": "665CA667E3455EE1B94F91B13F327DA2"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/MC-110LD-L100.step",
+      "kind": "model",
+      "sha256": "51d1693d7e4dcdf509e11087c930e503e2403833bb2bd8b675ac502718f5bc40",
+      "bytes": 1083847,
+      "origins": [
+        {
+          "file": "3dmodel/MC-110LD-LXXX/MC-110LD-L100.STEP"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/MC-110LD-L105.step",
+      "kind": "model",
+      "sha256": "fcd8645f2939c1763705125112b90c88cc38f48e0afee2aade0979616a93dddd",
+      "bytes": 1087631,
+      "origins": [
+        {
+          "file": "3dmodel/MC-110LD-LXXX/MC-110LD-L105.STEP"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/MC-110LD-L137.step",
+      "kind": "model",
+      "sha256": "6b16d515d1b699ddd9d7ba6a4dadcc73633153b3d02628a55a84c49422ae207a",
+      "bytes": 1782849,
+      "origins": [
+        {
+          "file": "3dmodel/MC-110LD-LXXX/MC-110LD-L137.STEP"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/MC-110LD-L150.step",
+      "kind": "model",
+      "sha256": "cceec38c8a09d8367ac9fc73e7627a14750b1ad2a5ad00be7f70a40d105ba692",
+      "bytes": 1740334,
+      "origins": [
+        {
+          "file": "3dmodel/MC-110LD-LXXX/MC-110LD-L150.STEP"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/MC-110LD-L175.step",
+      "kind": "model",
+      "sha256": "2c90bcf06b982c532dee5cc4d885bb41ac221a3239868c643ef54b311c40b0cf",
+      "bytes": 1801490,
+      "origins": [
+        {
+          "file": "3dmodel/MC-110LD-LXXX/MC-110LD-L175.STEP"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/OCN_OK-14F024-04_2x12_P0.4mm_Vertical.step",
+      "kind": "model",
+      "sha256": "b580577c1b3503b76e441b661a53b9157ede9681d8cbaaaf9688478189b3b957",
+      "bytes": 1002820,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Connectors.pretty/OCN_OK-14F024-04_2x12_P0.4mm_Vertical.kicad_mod",
+          "embedded_name": "OCN_OK-14F024-04_2x12_P0.4mm_Vertical.step",
+          "embedded_checksum": "C44A7D69A67C93B5C6378B24C0B2BB53"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/RJ45_Hanrun_HR911130A_Horizontal.step",
+      "kind": "model",
+      "sha256": "fb581aa6715c654a24610ee272a1912a3dcf1a77edbe85dd4328dd86e2ed3b38",
+      "bytes": 4402253,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Connectors.pretty/RJ45_Hanrun_HR911130A_Horizontal.kicad_mod",
+          "embedded_name": "HR911130A.STEP",
+          "embedded_checksum": "60855093605CA795E93618FDCFD0C8DB"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/TerminalBlock_HCTL_HC15EDGRC-3.81-2P_1x02_P3.81mm_Horizontal.step",
+      "kind": "model",
+      "sha256": "dbfaf3d8d22b72ae90b58251a2f22345db758a7c7ddc3c0cdaeda1080a11ccc6",
+      "bytes": 176369,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Connectors.pretty/TerminalBlock_HCTL_HC15EDGRC-3.81-2P_1x02_P3.81mm_Horizontal.kicad_mod",
+          "embedded_name": "HC15EDGRC-3.81-2P.STEP",
+          "embedded_checksum": "87FDA967368B14D09420AAC180C90D9A"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/TerminalBlock_HCTL_HC15EDGRC-3.81-3P_1x03_P3.81mm_Horizontal.step",
+      "kind": "model",
+      "sha256": "ae4dafa51cb65fe8a93eab43f8c0d9a4e0363e61fa0f9fecd1d4c2079d8a729b",
+      "bytes": 255190,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Connectors.pretty/TerminalBlock_HCTL_HC15EDGRC-3.81-3P_1x03_P3.81mm_Horizontal.kicad_mod",
+          "embedded_name": "HC15EDGRC-3.81-3P.STEP",
+          "embedded_checksum": "4EAFA33F45D85589EF5AAEE7E599E02F"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/TerminalBlock_HCTL_HC15EDGRC-3.81-4P_1x04_P3.81mm_Horizontal.step",
+      "kind": "model",
+      "sha256": "26d95fecc4032ce89edf7bef9642fa4a25dbdd2badd403bbb213c4264a6c1c11",
+      "bytes": 336563,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Connectors.pretty/TerminalBlock_HCTL_HC15EDGRC-3.81-4P_1x04_P3.81mm_Horizontal.kicad_mod",
+          "embedded_name": "HC15EDGRC-3.81-4P.STEP",
+          "embedded_checksum": "ABD332F381A5A243D5E2ADDC0EA82B49"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/USB3_A_Receptacle_HC-USB3.0-C335-P_Horizontal_Depressed3.35mm.step",
+      "kind": "model",
+      "sha256": "d361ea2f11221f664eb2ba966cf1f4cdf1d610a8a8cdcecfe94e06d2a2f9fbcf",
+      "bytes": 1085310,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Connectors.pretty/USB3_A_Receptacle_HC-USB3.0-C335-P_Horizontal_Depressed3.35mm.kicad_mod",
+          "embedded_name": "USB3_A_Receptacle_HC-USB3.0-C335-P_Horizontal_Depressed3.35mm.step",
+          "embedded_checksum": "C85E55CEF7C5F25FA4E24E75128CD487"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/USB3_A_Receptacle_HC-USB3.0-L257-P_Horizontal.step",
+      "kind": "model",
+      "sha256": "7bf0487f330d4c7ce716f575638e4545126376d4f5c05e2f7809bed19671f996",
+      "bytes": 4857509,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Connectors.pretty/USB3_A_Receptacle_HC-USB3.0-L257-P_Horizontal.kicad_mod",
+          "embedded_name": "HC-USB3.0-L257-P.STEP",
+          "embedded_checksum": "95A42B91A51CC94D9074AD5E01382033"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/USB_C_Receptacle_HANBO_MC-110LD-L93_16P_Vertical.step",
+      "kind": "model",
+      "sha256": "93eb2fcd1251a9c9fc77611eecf5bf64d9c67e05a1d3500a2689a695ef35251b",
+      "bytes": 638089,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Connectors.pretty/USB_C_Receptacle_HANBO_MC-110LD-L93_16P_Vertical.kicad_mod",
+          "embedded_name": "MC-110LD-L93.STEP",
+          "embedded_checksum": "BB1C5F72F82C2B51CE293AEFF947CC8F"
+        },
+        {
+          "file": "3dmodel/MC-110LD-LXXX/MC-110LD-L93.STEP"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/USB_C_Receptacle_XUNPU_TYPEC-304A-ACP16L_16P_TopMnt_Horizontal.step",
+      "kind": "model",
+      "sha256": "71c01fffadf64fa411280693451f2383546efd18c20e8c7f7fe6456edc4ba883",
+      "bytes": 2959550,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Connectors.pretty/USB_C_Receptacle_XUNPU_TYPEC-304A-ACP16L_16P_TopMnt_Horizontal.kicad_mod",
+          "embedded_name": "TYPEC-304A-ACP16L.STEP",
+          "embedded_checksum": "A747F072D380FACE74EC926E114DFA98"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Connectors.3dshapes/microSD_HC_SOFNG_TF-021B-H265.step",
+      "kind": "model",
+      "sha256": "77befd8d672a939337e64bf0d0650b1892fa0e1a5dc3d602dbc2582aa01394c3",
+      "bytes": 1207362,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Connectors.pretty/microSD_HC_SOFNG_TF-021B-H265.kicad_mod",
+          "embedded_name": "microSD_HC_SOFNG_TF-021B-H265.step",
+          "embedded_checksum": "078E5A6DB28EDF4954623221ECCE3176"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Mechanical.3dshapes/Socket_IN-12x_Nixie.step",
+      "kind": "model",
+      "sha256": "68c96513fac07ff126da7cb5359ed92ceadae7c10cacbfb5428a96c076f8c8f0",
+      "bytes": 839386,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Mechanical.pretty/Socket_IN-12x_Nixie.kicad_mod",
+          "embedded_name": "IN-12x_Socket.step",
+          "embedded_checksum": "17DBA9A1853E88D31B83BC41E84B7694"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Mechanical.3dshapes/Socket_IN-12x_Nixie_WithNixie.step",
+      "kind": "model",
+      "sha256": "5619332d0644b1adacb14efd000422fc8388db636f821ce7b6f5fe48e96b0639",
+      "bytes": 2144064,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Mechanical.pretty/Socket_IN-12x_Nixie.kicad_mod",
+          "embedded_name": "IN-12x_Socket_with_Nixie.step",
+          "embedded_checksum": "B269B82E059977B52D16B13661911E92"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Mechanical.3dshapes/Standoff_SMD_SMTSO2020CTJ_M2x2mm.step",
+      "kind": "model",
+      "sha256": "48ac82e63d9e4f5c8a356cd3ae4741a9e07d034f93dd24c4a6e94f4c230f93b7",
+      "bytes": 15321,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Mechanical.pretty/Standoff_SMD_SMTSO2020CTJ_M2x2mm.kicad_mod",
+          "embedded_name": "SMTSO2020CTJ.step",
+          "embedded_checksum": "30C545399DF7E1D94FA03B8D615320E2"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Passive.3dshapes/Buzzer_5x5mm_SMD.step",
+      "kind": "model",
+      "sha256": "8fb2f2cfa83776f86216af00534b7abea3f13589d78061bef4fd539f4f4d2df6",
+      "bytes": 1450328,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Passive.pretty/Buzzer_5x5mm_SMD.kicad_mod",
+          "embedded_name": "Buzzer_5x5mm_SMD.STEP",
+          "embedded_checksum": "3ADEFB88086539B593DD64421B84DDBF"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Passive.3dshapes/CP_Elec_Korchip_SM-3R3-703T01_4.8x4.8mm_H1.4mm.step",
+      "kind": "model",
+      "sha256": "c5e39a23086466161fc1f965e3feb21836e461894cedeb7d59077aea4c666e54",
+      "bytes": 90590,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Passive.pretty/CP_Elec_Korchip_SM-3R3-703T01_4.8x4.8mm_H1.4mm.kicad_mod",
+          "embedded_name": "CP_Elec_Korchip_SM-3R3-703T01_4.8x4.8mm_H1.4mm.step",
+          "embedded_checksum": "9B1EB958E08ACFE78F92FE1D3221B085"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Passive.3dshapes/ESD_Protection_RCLAMP0524PATCT_4Ch.step",
+      "kind": "model",
+      "sha256": "c3328c46c68b312c35a050c828117d279182945fd22a2b402b552d4c6d79ec69",
+      "bytes": 901284,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Passive.pretty/ESD_Protection_RCLAMP0524PATCT_4Ch.kicad_mod",
+          "embedded_name": "RCLAMP0524PATCT.STEP",
+          "embedded_checksum": "10009D61F137C614615CD1849E141A36"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Passive.3dshapes/ESD_Protection_RCLAMP3324P.TCT_4Ch.step",
+      "kind": "model",
+      "sha256": "a67ee7af8ec61f8c6b33184d4cebd4847b42fac601ee0aac0a70051edc3301d5",
+      "bytes": 1843999,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Passive.pretty/ESD_Protection_RCLAMP3324P.TCT_4Ch.kicad_mod",
+          "embedded_name": "RCLAMP3324P.TCT.STEP",
+          "embedded_checksum": "CF846B37DE6FC74D5C3D7AA5B13B708A"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Passive.3dshapes/GDT_1206_3216Metric.step",
+      "kind": "model",
+      "sha256": "3437b05bb5ab6290914d2cd732f2b2c2caa558b04105c090bdba38caa9d853bc",
+      "bytes": 1059281,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Passive.pretty/GDT_1206_3216Metric.kicad_mod",
+          "embedded_name": "GDT_1206_3216Metric.STEP",
+          "embedded_checksum": "F199F5AE7A71898461A509AC8AC574D4"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Passive.3dshapes/L_CommonMode_TDK_ACT45B-510-2P-TL003_4532Metric.step",
+      "kind": "model",
+      "sha256": "f4812890a588d33d265c3cee970587e0738d29d61b1f96ebad3e9b28ab7cb530",
+      "bytes": 3751072,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Passive.pretty/L_CommonMode_TDK_ACT45B-510-2P-TL003_4532Metric.kicad_mod",
+          "embedded_name": "ACT45B-510-2P-TL003.step",
+          "embedded_checksum": "5A34DA6357E130EB246E788106FBBDED"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Passive.3dshapes/Motor_Vibration_Z3OC1T8219731_SMD.step",
+      "kind": "model",
+      "sha256": "f1978023256ec291c4ad2bc41fee52ba91e3fc3310da922ab56378d741f90161",
+      "bytes": 885912,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Passive.pretty/Motor_Vibration_Z3OC1T8219731_SMD.kicad_mod",
+          "embedded_name": "Z3OC1T8219731.step",
+          "embedded_checksum": "A3EBF783399A646243BB61FAEF97A123"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Passive.3dshapes/RotaryEncoder_Switch_F-SWITCH_E8H8-H10.0mm.step",
+      "kind": "model",
+      "sha256": "165d317075101b45b781fd0a2594ac01cb5257ec6f730c813f5a68f5c77b84e0",
+      "bytes": 2443890,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Passive.pretty/RotaryEncoder_Switch_F-SWITCH_E8H8_SMD.kicad_mod",
+          "embedded_name": "E8H8-H10.0mm.STEP",
+          "embedded_checksum": "564ECE099C72B756549827885871BAB6"
+        },
+        {
+          "file": "3dmodel/F-SWITCH_E8H8/E8H8-H10.0mm.STEP"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Passive.3dshapes/RotaryEncoder_Switch_F-SWITCH_E8H8-H7.5mm.step",
+      "kind": "model",
+      "sha256": "c88dc13ad1a2f478a2667bbbd2251a0ecebae8e11bc7d15a130ff8f06929e76a",
+      "bytes": 2548356,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Passive.pretty/RotaryEncoder_Switch_F-SWITCH_E8H8_SMD.kicad_mod",
+          "embedded_name": "E8H8-H7.5mm.STEP",
+          "embedded_checksum": "DB638A958AB4F9E72C428E73D90287EF"
+        },
+        {
+          "file": "3dmodel/F-SWITCH_E8H8/E8H8-H7.5mm.STEP"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Passive.3dshapes/RotaryEncoder_Switch_Mitsumi_SIQ-02FVS3_SMD.step",
+      "kind": "model",
+      "sha256": "21ebdd04ac33deb4fd7098289a0f7dc46e3fe900939aadf848e78f06cf4a233f",
+      "bytes": 346478,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Passive.pretty/RotaryEncoder_Switch_Mitsumi_SIQ-02FVS3_SMD.kicad_mod",
+          "embedded_name": "RotaryEncoder_Switch_Mitsumi_SIQ-02FVS3_SMD.step",
+          "embedded_checksum": "1D21813BF29154205E60C556B61A573D"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Passive.3dshapes/SW_Push_1P1T_NO_SKRPACE010_4.2x3.2mm_H2.5mm_SMD_Vertical.step",
+      "kind": "model",
+      "sha256": "4db3266ebdd4171f1cbff71e129b0bad8336221f0972fd1d54b72a352273c5a1",
+      "bytes": 1665495,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Passive.pretty/SW_Push_1P1T_NO_SKRPACE010_4.2x3.2mm_H2.5mm_SMD_Vertical.kicad_mod",
+          "embedded_name": "SKRPACE010.step",
+          "embedded_checksum": "525E532DF24B822384EF7EE5EB352B62"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Passive.3dshapes/SW_Push_1P1T_NO_TS-1187A-C-E-B_5.1x5.1mm_H2.5mm_SMD_Vertical.step",
+      "kind": "model",
+      "sha256": "e88619d9fa1ce520180fd19692bd1adaecd0939860e88f57947d7488f9196cab",
+      "bytes": 1564790,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Passive.pretty/SW_Push_1P1T_NO_TS-1187A-C-E-B_5.1x5.1mm_H2.5mm_SMD_Vertical.kicad_mod",
+          "embedded_name": "BTN_TS-1187A-C-E-B.STEP",
+          "embedded_checksum": "CA0496560A9B8AA837960206BCEB08FA"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Passive.3dshapes/Transformer_TokyoCoil_TTRN-087S-000-T.step",
+      "kind": "model",
+      "sha256": "4a6f9d08388589a4e34ee430c7bd7645cbd8d3ba39157627302345469a88b1d4",
+      "bytes": 355072,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Passive.pretty/Transformer_TokyoCoil_TTRN-087S-000-T.kicad_mod",
+          "embedded_name": "TTRN-087S-000-T.STEP",
+          "embedded_checksum": "E00DDE111AB7D1F61EAC4330221762CA"
+        },
+        {
+          "file": "3dmodel/TTRN-087S/TTRN-087S-000-T.STEP"
+        }
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Passive.3dshapes/XTAL-SMD3225-4P.step",
+      "kind": "model",
+      "sha256": "2c0cf5a79e7e49b7d84dcc2be526fb8cefa35d5869da947ac8e6d11b1f5fbda7",
+      "bytes": 127439,
+      "origins": [
+        {
+          "file": "3dmodel/XTAL-SMD3225-4P/XTAL-SMD3225-4P.step"
+        }
+      ]
+    },
+    {
+      "path": "resources/datasheets/Allwinner/AXP313A.pdf",
+      "kind": "datasheet",
+      "sha256": "4672186e91fecc22ad0f24c9f9f49637e63f27f83231c9cbd2808beeb6300df6",
+      "bytes": 1514880,
+      "origins": [
+        {
+          "file": "datasheet/Allwinner_AXP/Allwinner_AXP313A.PDF"
+        }
+      ]
+    },
+    {
+      "path": "resources/datasheets/Allwinner/AXP323.pdf",
+      "kind": "datasheet",
+      "sha256": "d2d2541fe40b6cea0f3f46cae96d3993ef40a8360fac988b689b7f00838a298c",
+      "bytes": 1376554,
+      "origins": [
+        {
+          "file": "datasheet/Allwinner_AXP/Allwinner_AXP323.PDF"
+        }
+      ]
+    },
+    {
+      "path": "resources/datasheets/Allwinner/H616_Brief.pdf",
+      "kind": "datasheet",
+      "sha256": "35cb7bf4b3ce56af131787eda2559bb2e8bb425051a63a42a0600ef46480ef30",
+      "bytes": 121719,
+      "origins": [
+        {
+          "file": "datasheet/Allwinner_H61x/Allwinner_H616_brief.pdf"
+        }
+      ]
+    },
+    {
+      "path": "resources/datasheets/Allwinner/H616_Datasheet_V1.0.pdf",
+      "kind": "datasheet",
+      "sha256": "f2bdb85e06fe56b7b4d73387331de0fd6c212fdd1485ca3c076401e954ef4811",
+      "bytes": 3649313,
+      "origins": [
+        {
+          "file": "datasheet/Allwinner_H61x/Allwinner_H616_Datasheet_V1.0.pdf"
+        }
+      ]
+    },
+    {
+      "path": "resources/datasheets/CFSensor/XGZP6859D.pdf",
+      "kind": "datasheet",
+      "sha256": "0157991f75567d9eb58dcbc2e8621ed35f833c82809209963fb124703f6df40a",
+      "bytes": 1254581,
+      "origins": [
+        {
+          "file": "symbols/Flowersauce_Active.kicad_sym",
+          "embedded_name": "GZP6859D_规格书.PDF",
+          "embedded_checksum": "87C2124D46BC69798CB53529C04CBB96"
+        }
+      ]
+    },
+    {
+      "path": "resources/datasheets/F-SWITCH/E8H8-10J30-9B15-F200_Approval_A0.pdf",
+      "kind": "datasheet",
+      "sha256": "8ce892821bf0cc3148b36de5e4008e59dd182737b1daf796bbda85724c3116b5",
+      "bytes": 1816974,
+      "origins": [
+        {
+          "file": "symbols/Flowersauce_Passive.kicad_sym",
+          "embedded_name": "F-SWITCH_E8H8-10J30-9B15-F200-A0版 承认书.pdf",
+          "embedded_checksum": "6BA2046428474421A0FDDED3BA627907"
+        },
+        {
+          "file": "datasheet/F-SWITCH_E8H8/F-SWITCH_E8H8-10J30-9B15-F200-A0版 承认书.pdf"
+        }
+      ]
+    },
+    {
+      "path": "resources/datasheets/F-SWITCH/E8H8-7.5J30-9B15-F200_Approval_A0.pdf",
+      "kind": "datasheet",
+      "sha256": "1d685be1763f38c892ce588e926bba35392c89d6d016d408afb180eac8d870cb",
+      "bytes": 1551184,
+      "origins": [
+        {
+          "file": "symbols/Flowersauce_Passive.kicad_sym",
+          "embedded_name": "F-SWITCH_E8H8-7.5J30-9B15-F200-A0版 承认书.pdf",
+          "embedded_checksum": "1FCA659DA9E3E3F02C8ACDA4601F7CC2"
+        },
+        {
+          "file": "datasheet/F-SWITCH_E8H8/F-SWITCH_E8H8-7.5J30-9B15-F200-A0版 承认书.pdf"
+        }
+      ]
+    },
+    {
+      "path": "resources/datasheets/HCTL/HC-FPC-05-09-NRLTAG.pdf",
+      "kind": "datasheet",
+      "sha256": "15cac2c9444502336b141f8d0c4edd0bfcc79218a92ff9ec096b9e2659f76016",
+      "bytes": 322630,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Connectors.pretty/FPC_HCTL_HC-FPC-05-09-NRLTAG_1x05_P0.5mm_Horizontal.kicad_mod",
+          "embedded_name": "HC-FPC-05-09-NRLTAG.pdf",
+          "embedded_checksum": "2D87D3A161BBEFFB40749C8DA470EF72"
+        },
+        {
+          "file": "datasheet/HC-FPC/HC-FPC-05-09-NRLTAG.pdf"
+        }
+      ]
+    },
+    {
+      "path": "resources/datasheets/Korchip/SM3R3703T01U.pdf",
+      "kind": "datasheet",
+      "sha256": "e8296ff37535bf148a699b9b0ed24de8809fe3c714e0de547d003bbed9c12e4e",
+      "bytes": 305956,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Passive.pretty/CP_Elec_Korchip_SM-3R3-703T01_4.8x4.8mm_H1.4mm.kicad_mod",
+          "embedded_name": "C396469_超级电容器_SM3R3703T01U_规格书_WJ249132.PDF",
+          "embedded_checksum": "A3EF77BA89E699FBD6C9F449ADDB520E"
+        }
+      ]
+    },
+    {
+      "path": "resources/datasheets/Nixie/IN-12A_IN-12B_03.pdf",
+      "kind": "datasheet",
+      "sha256": "21a85351518c8819d1ae18c1c649f2edafdb26dc9a656c6d31a9e41858fdedb4",
+      "bytes": 2257818,
+      "origins": [
+        {
+          "file": "symbols/Flowersauce_Mechanical.kicad_sym",
+          "embedded_name": "IN-12A_IN-12B_03.pdf",
+          "embedded_checksum": "77299AA0F9C36BF1AEF6E24D9F58438C"
+        }
+      ]
+    },
+    {
+      "path": "resources/datasheets/OCN/OK-14GMXXX-04_OK-14FXXX-04.pdf",
+      "kind": "datasheet",
+      "sha256": "87eed9ad728bea68bc335b66391e6f8c5be1c8f1b2998fa7fdd8a19d80f9e692",
+      "bytes": 1311523,
+      "origins": [
+        {
+          "file": "footprints/Flowersauce_Connectors.pretty/OCN_OK-14F024-04_2x12_P0.4mm_Vertical.kicad_mod",
+          "embedded_name": "OK-14GMXXX-04 and OK-14FXXX-04规格书.pdf",
+          "embedded_checksum": "56B4D2AE7E3020317834B067DD3FC78A"
+        }
+      ]
+    },
+    {
+      "path": "resources/drawings/HANBO/MC-110LD-L100.dwg",
+      "kind": "drawing",
+      "sha256": "f1bc69673125d34955cedb783aaccff8aedfbec0b14b1af8577719cf2c625261",
+      "bytes": 577435,
+      "origins": [
+        {
+          "file": "datasheet/MC-110LD-LXXX/MC-110LD-L100.dwg"
+        }
+      ]
+    },
+    {
+      "path": "resources/drawings/HANBO/MC-110LD-L105.dwg",
+      "kind": "drawing",
+      "sha256": "dbe0efd5cdfd55b446225038ec81a0271f129c0c0d60580135de789f70392e41",
+      "bytes": 525703,
+      "origins": [
+        {
+          "file": "datasheet/MC-110LD-LXXX/MC-110LD-L105.dwg"
+        }
+      ]
+    },
+    {
+      "path": "resources/drawings/HANBO/MC-110LD-L124.dwg",
+      "kind": "drawing",
+      "sha256": "ba7b0057283cd188171323d307283059704316cec1c6c3b2709180cfaffa67bc",
+      "bytes": 567580,
+      "origins": [
+        {
+          "file": "datasheet/MC-110LD-LXXX/MC-110LD-L124.dwg"
+        }
+      ]
+    },
+    {
+      "path": "resources/drawings/HANBO/MC-110LD-L131.dwg",
+      "kind": "drawing",
+      "sha256": "2940e8bab105e696f74a70c50c913b1312bed327fda48384dfbb3eb81087648b",
+      "bytes": 501636,
+      "origins": [
+        {
+          "file": "datasheet/MC-110LD-LXXX/MC-110LD-L131.dwg"
+        }
+      ]
+    },
+    {
+      "path": "resources/drawings/HANBO/MC-110LD-L137.dwg",
+      "kind": "drawing",
+      "sha256": "0cc03c38e38055b13e4879b64d46958a16ca5426bccddb4b4fc362303689795f",
+      "bytes": 557580,
+      "origins": [
+        {
+          "file": "datasheet/MC-110LD-LXXX/MC-110LD-L137.dwg"
+        }
+      ]
+    },
+    {
+      "path": "resources/drawings/HANBO/MC-110LD-L150.dwg",
+      "kind": "drawing",
+      "sha256": "09bb194876621ee8e914051e6842e26631104523e31f4e0a23af15334bb65665",
+      "bytes": 546831,
+      "origins": [
+        {
+          "file": "datasheet/MC-110LD-LXXX/MC-110LD-L150 .dwg"
+        }
+      ]
+    },
+    {
+      "path": "resources/drawings/HANBO/MC-110LD-L175.dwg",
+      "kind": "drawing",
+      "sha256": "c0edbb38f23b0e9b8a5bd16cb8854e15645247e18fbc172967259fdc2f696643",
+      "bytes": 502766,
+      "origins": [
+        {
+          "file": "datasheet/MC-110LD-LXXX/MC-110LD-L175.dwg"
+        }
+      ]
+    },
+    {
+      "path": "resources/drawings/HANBO/MC-110LD-L93.dwg",
+      "kind": "drawing",
+      "sha256": "daa738cd31a49002977d9271400a58513c2c461b97677fbfc13500696e899efd",
+      "bytes": 539056,
+      "origins": [
+        {
+          "file": "datasheet/MC-110LD-LXXX/MC-110LD-L93.dwg"
+        }
+      ]
+    }
+  ],
+  "reference_changes": [
+    {
+      "file": "footprints/Flowersauce_Active.pretty/Allwinner_H61x_TFBGA-284_14x12mm_Layout21x18_P0.65mm.kicad_mod",
+      "before": "kicad-embed://Allwinner_H61x.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Active.3dshapes/Allwinner_H61x_TFBGA-284_14x12mm_Layout21x18_P0.65mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Active.pretty/BGA-200_10x14.5mm_Layout12x22_P0.8x0.65mm.kicad_mod",
+      "before": "kicad-embed://BGA-200_10x14.5mm_Layout12x22_P0.8x0.65mm.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Active.3dshapes/BGA-200_10x14.5mm_Layout12x22_P0.8x0.65mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Active.pretty/CFSensor_XGZP6859D_7x7mm.kicad_mod",
+      "before": "kicad-embed://CFSensor_XGZP6859D_7x7mm.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Active.3dshapes/CFSensor_XGZP6859D_7x7mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Active.pretty/JSCJ_DFNWB-8_3x3mm_P0.65mm.kicad_mod",
+      "before": "kicad-embed://JSCJ_DFNWB-8_3x3mm_P0.65mm.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Active.3dshapes/JSCJ_DFNWB-8_3x3mm_P0.65mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Active.pretty/QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm.kicad_mod",
+      "before": "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm.step",
+      "after": "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Active.pretty/QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm.kicad_mod",
+      "before": "kicad-embed://QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Active.3dshapes/QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Active.pretty/Rockchip_RK3568_TFBGA-644_19x19mm_Layout28x28_P0.65mm.kicad_mod",
+      "before": "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/TFBGA-644_19x19mm_Layout28x28_P0.65mm.step",
+      "after": "${KICAD10_3DMODEL_DIR}/Package_BGA.3dshapes/TFBGA-644_19x19mm_Layout28x28_P0.65mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Active.pretty/Rockchip_RK3568_TFBGA-644_19x19mm_Layout28x28_P0.65mm.kicad_mod",
+      "before": "kicad-embed://Rockchip_RK3568.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Active.3dshapes/Rockchip_RK3568_TFBGA-644_19x19mm_Layout28x28_P0.65mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Active.pretty/Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad.kicad_mod",
+      "before": "kicad-embed://SHT4x.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Active.3dshapes/Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Active.pretty/SOIC-16_3.9x9.9mm_P1.27mm.kicad_mod",
+      "before": "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-16_3.9x9.9mm_P1.27mm.wrl",
+      "after": "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-16_3.9x9.9mm_P1.27mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Active.pretty/SOIC-16W_7.5x10.3mm_P1.27mm.kicad_mod",
+      "before": "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-16W_7.5x10.3mm_P1.27mm.wrl",
+      "after": "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-16W_7.5x10.3mm_P1.27mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Active.pretty/SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod",
+      "before": "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl",
+      "after": "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Active.pretty/SOP-4_4.4x3.9mm_P2.54mm.kicad_mod",
+      "before": "kicad-embed://OMRON_G3VM-61xx.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Active.3dshapes/SOP-4_4.4x3.9mm_P2.54mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Active.pretty/SOT-563.kicad_mod",
+      "before": "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.step",
+      "after": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Active.pretty/SSOP-18_4.4x6.5mm_P0.65mm.kicad_mod",
+      "before": "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-18_4.4x6.5mm_P0.65mm.step",
+      "after": "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-18_4.4x6.5mm_P0.65mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Active.pretty/WSOF-6-1EP_2.6x1.6mm_P0.5mm_EP1.5x1.2mm.kicad_mod",
+      "before": "kicad-embed://WSOF-6.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Active.3dshapes/WSOF-6-1EP_2.6x1.6mm_P0.5mm_EP1.5x1.2mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/DSUB-9_Socket_XUNPU_D-SUB-DR-9PCM-CB_Horizontal.kicad_mod",
+      "before": "kicad-embed://D-SUB-DR-9PCM-CB.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Connectors.3dshapes/DSUB-9_Socket_XUNPU_D-SUB-DR-9PCM-CB_Horizontal.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/FPC_HCTL_HC-FPC-05-09-NRLTAG_1x05_P0.5mm_Horizontal.kicad_mod",
+      "before": "kicad-embed://HC-FPC-05-09-NRLTAG.pdf",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/resources/datasheets/HCTL/HC-FPC-05-09-NRLTAG.pdf"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/FPC_HCTL_HC-FPC-05-09-NRLTAG_1x05_P0.5mm_Horizontal.kicad_mod",
+      "before": "kicad-embed://HC-FPC-05-09-5RLTAG.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Connectors.3dshapes/FPC_HCTL_HC-FPC-05-09-NRLTAG_1x05_P0.5mm_Horizontal.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/HDMI_A_Receptacle_G-Switch_GT-HD001A-FNNG0_Horizontal.kicad_mod",
+      "before": "kicad-embed://GT-HD001A-FNNG0.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Connectors.3dshapes/HDMI_A_Receptacle_G-Switch_GT-HD001A-FNNG0_Horizontal.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/microSD_HC_SOFNG_TF-021B-H265.kicad_mod",
+      "before": "kicad-embed://microSD_HC_SOFNG_TF-021B-H265.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Connectors.3dshapes/microSD_HC_SOFNG_TF-021B-H265.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/OCN_OK-14F024-04_2x12_P0.4mm_Vertical.kicad_mod",
+      "before": "kicad-embed://OK-14GMXXX-04 and OK-14FXXX-04规格书.pdf",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/resources/datasheets/OCN/OK-14GMXXX-04_OK-14FXXX-04.pdf"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/OCN_OK-14F024-04_2x12_P0.4mm_Vertical.kicad_mod",
+      "before": "kicad-embed://OCN_OK-14F024-04_2x12_P0.4mm_Vertical.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Connectors.3dshapes/OCN_OK-14F024-04_2x12_P0.4mm_Vertical.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/RJ45_Hanrun_HR911130A_Horizontal.kicad_mod",
+      "before": "kicad-embed://HR911130A.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Connectors.3dshapes/RJ45_Hanrun_HR911130A_Horizontal.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/TerminalBlock_HCTL_HC15EDGRC-3.81-2P_1x02_P3.81mm_Horizontal.kicad_mod",
+      "before": "kicad-embed://HC15EDGRC-3.81-2P.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Connectors.3dshapes/TerminalBlock_HCTL_HC15EDGRC-3.81-2P_1x02_P3.81mm_Horizontal.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/TerminalBlock_HCTL_HC15EDGRC-3.81-3P_1x03_P3.81mm_Horizontal.kicad_mod",
+      "before": "kicad-embed://HC15EDGRC-3.81-3P.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Connectors.3dshapes/TerminalBlock_HCTL_HC15EDGRC-3.81-3P_1x03_P3.81mm_Horizontal.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/TerminalBlock_HCTL_HC15EDGRC-3.81-4P_1x04_P3.81mm_Horizontal.kicad_mod",
+      "before": "kicad-embed://HC15EDGRC-3.81-4P.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Connectors.3dshapes/TerminalBlock_HCTL_HC15EDGRC-3.81-4P_1x04_P3.81mm_Horizontal.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/USB3_A_Receptacle_HC-USB3.0-C335-P_Horizontal_Depressed3.35mm.kicad_mod",
+      "before": "kicad-embed://USB3_A_Receptacle_HC-USB3.0-C335-P_Horizontal_Depressed3.35mm.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Connectors.3dshapes/USB3_A_Receptacle_HC-USB3.0-C335-P_Horizontal_Depressed3.35mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/USB3_A_Receptacle_HC-USB3.0-L257-P_Horizontal.kicad_mod",
+      "before": "kicad-embed://HC-USB3.0-L257-P.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Connectors.3dshapes/USB3_A_Receptacle_HC-USB3.0-L257-P_Horizontal.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/USB_C_Receptacle_HANBO_MC-110LD-L93_16P_Vertical.kicad_mod",
+      "before": "kicad-embed://MC-110LD-L93.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Connectors.3dshapes/USB_C_Receptacle_HANBO_MC-110LD-L93_16P_Vertical.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Connectors.pretty/USB_C_Receptacle_XUNPU_TYPEC-304A-ACP16L_16P_TopMnt_Horizontal.kicad_mod",
+      "before": "kicad-embed://TYPEC-304A-ACP16L.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Connectors.3dshapes/USB_C_Receptacle_XUNPU_TYPEC-304A-ACP16L_16P_TopMnt_Horizontal.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Mechanical.pretty/Socket_IN-12x_Nixie.kicad_mod",
+      "before": "kicad-embed://IN-12x_Socket_with_Nixie.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Mechanical.3dshapes/Socket_IN-12x_Nixie_WithNixie.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Mechanical.pretty/Socket_IN-12x_Nixie.kicad_mod",
+      "before": "kicad-embed://IN-12x_Socket.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Mechanical.3dshapes/Socket_IN-12x_Nixie.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Mechanical.pretty/Standoff_SMD_SMTSO2020CTJ_M2x2mm.kicad_mod",
+      "before": "kicad-embed://SMTSO2020CTJ.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Mechanical.3dshapes/Standoff_SMD_SMTSO2020CTJ_M2x2mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Passive.pretty/Buzzer_5x5mm_SMD.kicad_mod",
+      "before": "kicad-embed://Buzzer_5x5mm_SMD.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Passive.3dshapes/Buzzer_5x5mm_SMD.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Passive.pretty/CP_Elec_Korchip_SM-3R3-703T01_4.8x4.8mm_H1.4mm.kicad_mod",
+      "before": "kicad-embed://C396469_超级电容器_SM3R3703T01U_规格书_WJ249132.PDF",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/resources/datasheets/Korchip/SM3R3703T01U.pdf"
+    },
+    {
+      "file": "footprints/Flowersauce_Passive.pretty/CP_Elec_Korchip_SM-3R3-703T01_4.8x4.8mm_H1.4mm.kicad_mod",
+      "before": "kicad-embed://CP_Elec_Korchip_SM-3R3-703T01_4.8x4.8mm_H1.4mm.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Passive.3dshapes/CP_Elec_Korchip_SM-3R3-703T01_4.8x4.8mm_H1.4mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Passive.pretty/ESD_Protection_RCLAMP0524PATCT_4Ch.kicad_mod",
+      "before": "kicad-embed://RCLAMP0524PATCT.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Passive.3dshapes/ESD_Protection_RCLAMP0524PATCT_4Ch.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Passive.pretty/ESD_Protection_RCLAMP3324P.TCT_4Ch.kicad_mod",
+      "before": "kicad-embed://RCLAMP3324P.TCT.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Passive.3dshapes/ESD_Protection_RCLAMP3324P.TCT_4Ch.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Passive.pretty/GDT_1206_3216Metric.kicad_mod",
+      "before": "kicad-embed://GDT_1206_3216Metric.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Passive.3dshapes/GDT_1206_3216Metric.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Passive.pretty/L_CommonMode_TDK_ACT45B-510-2P-TL003_4532Metric.kicad_mod",
+      "before": "kicad-embed://ACT45B-510-2P-TL003.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Passive.3dshapes/L_CommonMode_TDK_ACT45B-510-2P-TL003_4532Metric.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Passive.pretty/Motor_Vibration_Z3OC1T8219731_SMD.kicad_mod",
+      "before": "kicad-embed://Z3OC1T8219731.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Passive.3dshapes/Motor_Vibration_Z3OC1T8219731_SMD.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Passive.pretty/RotaryEncoder_Switch_F-SWITCH_E8H8_SMD.kicad_mod",
+      "before": "kicad-embed://E8H8-H10.0mm.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Passive.3dshapes/RotaryEncoder_Switch_F-SWITCH_E8H8-H10.0mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Passive.pretty/RotaryEncoder_Switch_F-SWITCH_E8H8_SMD.kicad_mod",
+      "before": "kicad-embed://E8H8-H7.5mm.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Passive.3dshapes/RotaryEncoder_Switch_F-SWITCH_E8H8-H7.5mm.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Passive.pretty/RotaryEncoder_Switch_Mitsumi_SIQ-02FVS3_SMD.kicad_mod",
+      "before": "kicad-embed://RotaryEncoder_Switch_Mitsumi_SIQ-02FVS3_SMD.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Passive.3dshapes/RotaryEncoder_Switch_Mitsumi_SIQ-02FVS3_SMD.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Passive.pretty/SW_Push_1P1T_NO_SKRPACE010_4.2x3.2mm_H2.5mm_SMD_Vertical.kicad_mod",
+      "before": "kicad-embed://SKRPACE010.step",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Passive.3dshapes/SW_Push_1P1T_NO_SKRPACE010_4.2x3.2mm_H2.5mm_SMD_Vertical.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Passive.pretty/SW_Push_1P1T_NO_TS-1187A-C-E-B_5.1x5.1mm_H2.5mm_SMD_Vertical.kicad_mod",
+      "before": "kicad-embed://BTN_TS-1187A-C-E-B.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Passive.3dshapes/SW_Push_1P1T_NO_TS-1187A-C-E-B_5.1x5.1mm_H2.5mm_SMD_Vertical.step"
+    },
+    {
+      "file": "footprints/Flowersauce_Passive.pretty/Transformer_TokyoCoil_TTRN-087S-000-T.kicad_mod",
+      "before": "kicad-embed://TTRN-087S-000-T.STEP",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/3dmodels/Flowersauce_Passive.3dshapes/Transformer_TokyoCoil_TTRN-087S-000-T.step"
+    },
+    {
+      "file": "symbols/Flowersauce_Active.kicad_sym",
+      "before": "kicad-embed://GZP6859D_规格书.PDF",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/resources/datasheets/CFSensor/XGZP6859D.pdf"
+    },
+    {
+      "file": "symbols/Flowersauce_Mechanical.kicad_sym",
+      "before": "kicad-embed://IN-12A_IN-12B_03.pdf",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/resources/datasheets/Nixie/IN-12A_IN-12B_03.pdf"
+    },
+    {
+      "file": "symbols/Flowersauce_Passive.kicad_sym",
+      "before": "kicad-embed://F-SWITCH_E8H8-7.5J30-9B15-F200-A0版 承认书.pdf",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/resources/datasheets/F-SWITCH/E8H8-7.5J30-9B15-F200_Approval_A0.pdf"
+    },
+    {
+      "file": "symbols/Flowersauce_Active.kicad_sym",
+      "before": "https://item.szlcsc.com/datasheet/AXP313A/6196371.html?spm=sc.it.pdf.fd&lcsc_vid=QVVXUwVSRFFZAlxURwJdXgAEQFFaBAAFT1UIAwFfRQIxVlNeRVhfVlRWRVVdUTsOAxUeFF5JWAIASQYPGQZABAsLWA%3D%3D",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/resources/datasheets/Allwinner/AXP313A.pdf"
+    },
+    {
+      "file": "symbols/Flowersauce_Active.kicad_sym",
+      "before": "https://item.szlcsc.com/datasheet/H616/6196370.html?spm=sc.it.pdf.fd&lcsc_vid=QVVXUwVSRFFZAlxURwJdXgAEQFFaBAAFT1UIAwFfRQIxVlNeRVhfVlReRlhdUjsOAxUeFF5JWAIASQYPGQZABAsLWA%3D%3D",
+      "after": "${FLOWERSAUCE_KICAD_DIR}/resources/datasheets/Allwinner/H616_Datasheet_V1.0.pdf"
+    }
+  ]
+}

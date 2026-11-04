@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-04",
+  "installed_kicad_version": "10.0.7",
+  "models": [
+    {
+      "path": "3dmodels/Flowersauce_Active.3dshapes/QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm_ThermalVias.step",
+      "sha256": "cd8b19c427b0acf1e4b8831b2eec4e227a5247a89aa4804623768bf82333aa43",
+      "bytes": 496281,
+      "installed_source_paths": [
+        "Package_DFN_QFN.3dshapes/QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm.step"
+      ],
+      "referenced_by_imported_footprints": [
+        "Flowersauce_Active:QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm_ThermalVias"
+      ],
+      "original_download_url": null,
+      "license": "Preserve source header; original download provenance was not recorded."
+    },
+    {
+      "path": "3dmodels/Flowersauce_Active.3dshapes/VQFN-104-1EP_10x10mm_P0.35mm_EP7.5x7.5mm.step",
+      "sha256": "5f566ae6a27456b15451d2732a1c1815e2ba7cd0658d50123c52cb01bf060880",
+      "bytes": 238939,
+      "installed_source_paths": [
+        "Package_DFN_QFN.3dshapes/VQFN-104-1EP_10x10mm_P0.35mm_EP7.5x7.5mm.step",
+        "RF_Module.3dshapes/VQFN-104-1EP_10x10mm_P0.35mm_EP7.5x7.5mm.step"
+      ],
+      "referenced_by_imported_footprints": [],
+      "original_download_url": null,
+      "license": "CC-BY-SA-4.0 with KiCad exception, as stated in the retained STEP header.",
+      "notes": [
+        "Two installed aliases share these bytes; no installed official footprint references them. No footprint was invented."
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Active.3dshapes/WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm.step",
+      "sha256": "9e3cdbeba31188d6f31ec43bee1d94aff5a79d880edd12d016eef9c7c70f4d13",
+      "bytes": 111764,
+      "installed_source_paths": [
+        "Package_SON.3dshapes/WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm.step"
+      ],
+      "referenced_by_imported_footprints": [
+        "Flowersauce_Active:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+      ],
+      "original_download_url": null,
+      "license": "CC-BY-SA-4.0 with KiCad exception, as stated in the retained STEP header.",
+      "notes": [
+        "The STEP header names an 8x6mm file; coordinate ranges are about 6x5mm. Source bytes are retained unchanged."
+      ]
+    },
+    {
+      "path": "3dmodels/Flowersauce_Active.3dshapes/WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm.step",
+      "sha256": "46cd81219be75f75853a7ad7f22707323464de0eef8f1415b78f2a0691555eb8",
+      "bytes": 187904,
+      "installed_source_paths": [
+        "Package_SON.3dshapes/WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm.step"
+      ],
+      "referenced_by_imported_footprints": [
+        "Flowersauce_Active:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
+      ],
+      "original_download_url": null,
+      "license": "Preserve source header; original download provenance was not recorded."
+    },
+    {
+      "path": "3dmodels/Flowersauce_Active.3dshapes/SOT-723.step",
+      "sha256": "b939be06ab95fedc6021dc886e6dc94f4b04bcd5b54518c0a39ab781608f753c",
+      "bytes": 77487,
+      "installed_source_paths": [
+        "Package_TO_SOT_SMD.3dshapes/SOT-723.step"
+      ],
+      "referenced_by_imported_footprints": [
+        "Flowersauce_Active:SOT-723"
+      ],
+      "original_download_url": null,
+      "license": "Preserve source header; original download provenance was not recorded."
+    }
+  ],
+  "footprints": [
+    {
+      "path": "footprints/Flowersauce_Active.pretty/QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm_ThermalVias.kicad_mod",
+      "library_id": "Flowersauce_Active:QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm_ThermalVias",
+      "source_library_id": "Package_DFN_QFN:QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm_ThermalVias",
+      "installed_source_path": "footprints/Package_DFN_QFN.pretty/QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm_ThermalVias.kicad_mod",
+      "upstream_url": "https://gitlab.com/kicad/libraries/kicad-footprints/-/blob/10.0.7/Package_DFN_QFN.pretty/QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm_ThermalVias.kicad_mod",
+      "source_sha256": "6fe4394625336199de9ab548bec6538352ac237e9578c83d6e19f253fc565c55",
+      "imported_sha256": "ca0db0ce9ddb9cb931bdf2e77620717de0c471e8953bd48ee85926bb83cd6285",
+      "model_paths": [
+        "3dmodels/Flowersauce_Active.3dshapes/QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm_ThermalVias.step"
+      ],
+      "changes": "Only the model URI was changed; geometry, pad numbers and model transforms were retained.",
+      "license": "CC-BY-SA-4.0 with KiCad exception; see LICENSES/KiCad-Libraries-LICENSE.md.",
+      "notes": [
+        "Installed source differs from upstream tag 10.0.7 in silkscreen and pin-1 marker. Those pre-existing local changes were retained."
+      ]
+    },
+    {
+      "path": "footprints/Flowersauce_Active.pretty/WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm.kicad_mod",
+      "library_id": "Flowersauce_Active:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm",
+      "source_library_id": "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm",
+      "installed_source_path": "footprints/Package_SON.pretty/WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm.kicad_mod",
+      "upstream_url": "https://gitlab.com/kicad/libraries/kicad-footprints/-/blob/10.0.7/Package_SON.pretty/WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm.kicad_mod",
+      "source_sha256": "2c8a7ebec96c94bfe09f97278bbef9523df19950ed268699e9677f0e30a99f04",
+      "imported_sha256": "94548294553443718f3e4809bcb61639c1891c9efdf23abbe971f01c0552aa09",
+      "model_paths": [
+        "3dmodels/Flowersauce_Active.3dshapes/WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm.step"
+      ],
+      "changes": "Only the model URI was changed; geometry, pad numbers and model transforms were retained.",
+      "license": "CC-BY-SA-4.0 with KiCad exception; see LICENSES/KiCad-Libraries-LICENSE.md."
+    },
+    {
+      "path": "footprints/Flowersauce_Active.pretty/WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm.kicad_mod",
+      "library_id": "Flowersauce_Active:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm",
+      "source_library_id": "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm",
+      "installed_source_path": "footprints/Package_SON.pretty/WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm.kicad_mod",
+      "upstream_url": "https://gitlab.com/kicad/libraries/kicad-footprints/-/blob/10.0.7/Package_SON.pretty/WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm.kicad_mod",
+      "source_sha256": "55da0470975312ab806b435f67399382642ddf2080d56bf5e5d9ec97b082ff8e",
+      "imported_sha256": "647dceed599e912f44b31fbf4d820a92aca6392834e138c3ea213f78bc9735f3",
+      "model_paths": [
+        "3dmodels/Flowersauce_Active.3dshapes/WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm.step"
+      ],
+      "changes": "Only the model URI was changed; geometry, pad numbers and model transforms were retained.",
+      "license": "CC-BY-SA-4.0 with KiCad exception; see LICENSES/KiCad-Libraries-LICENSE.md."
+    },
+    {
+      "path": "footprints/Flowersauce_Active.pretty/SOT-723.kicad_mod",
+      "library_id": "Flowersauce_Active:SOT-723",
+      "source_library_id": "Package_TO_SOT_SMD:SOT-723",
+      "installed_source_path": "footprints/Package_TO_SOT_SMD.pretty/SOT-723.kicad_mod",
+      "upstream_url": "https://gitlab.com/kicad/libraries/kicad-footprints/-/blob/10.0.7/Package_TO_SOT_SMD.pretty/SOT-723.kicad_mod",
+      "source_sha256": "7d21fb405134706946e44d25559a20ef30bdd07a91f9bd9428a1c9083999d632",
+      "imported_sha256": "1edafb1a77486af18e9f186b2545fd82499751d48848197743e99b2ed6fd4ae0",
+      "model_paths": [
+        "3dmodels/Flowersauce_Active.3dshapes/SOT-723.step"
+      ],
+      "changes": "Only the model URI was changed; geometry, pad numbers and model transforms were retained.",
+      "license": "CC-BY-SA-4.0 with KiCad exception; see LICENSES/KiCad-Libraries-LICENSE.md."
+    }
+  ],
+  "symbol_reference_changes": [
+    {
+      "file": "symbols/Flowersauce_Active.kicad_sym",
+      "symbol": "TMI7003C",
+      "before": "Package_DFN_QFN:QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm_ThermalVias",
+      "after": "Flowersauce_Active:QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm_ThermalVias"
+    }
+  ],
+  "preserved_existing_footprint": "Flowersauce_Active:QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm",
+  "backup": "tmp/backups/stock-footprint-import-20261104-82bfb9a4",
+  "official_installation_modified": false
+}

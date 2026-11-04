@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-04",
+  "baseline_repository": "https://gitlab.com/kicad/libraries/kicad-packages3D",
+  "baseline_tag": "10.0.7",
+  "installed_model_root": "D:/APP/Works/KiCad/10.0/share/kicad/3dmodels",
+  "comparison": "Path differences only. Existing official files overwritten under the same name are not detected.",
+  "files": [
+    {
+      "path": "Package_DFN_QFN.3dshapes/QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm.step",
+      "bytes": 496281,
+      "sha256": "cd8b19c427b0acf1e4b8831b2eec4e227a5247a89aa4804623768bf82333aa43",
+      "same_content_in_checkout": null
+    },
+    {
+      "path": "Package_DFN_QFN.3dshapes/VQFN-104-1EP_10x10mm_P0.35mm_EP7.5x7.5mm.step",
+      "bytes": 238939,
+      "sha256": "5f566ae6a27456b15451d2732a1c1815e2ba7cd0658d50123c52cb01bf060880",
+      "same_content_in_checkout": null
+    },
+    {
+      "path": "Package_SON.3dshapes/WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm.step",
+      "bytes": 111764,
+      "sha256": "9e3cdbeba31188d6f31ec43bee1d94aff5a79d880edd12d016eef9c7c70f4d13",
+      "same_content_in_checkout": null
+    },
+    {
+      "path": "Package_SON.3dshapes/WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm.step",
+      "bytes": 187904,
+      "sha256": "46cd81219be75f75853a7ad7f22707323464de0eef8f1415b78f2a0691555eb8",
+      "same_content_in_checkout": null
+    },
+    {
+      "path": "Package_TO_SOT_SMD.3dshapes/SOT-723.step",
+      "bytes": 77487,
+      "sha256": "b939be06ab95fedc6021dc886e6dc94f4b04bcd5b54518c0a39ab781608f753c",
+      "same_content_in_checkout": null
+    },
+    {
+      "path": "RF_Module.3dshapes/VQFN-104-1EP_10x10mm_P0.35mm_EP7.5x7.5mm.step",
+      "bytes": 238939,
+      "sha256": "5f566ae6a27456b15451d2732a1c1815e2ba7cd0658d50123c52cb01bf060880",
+      "same_content_in_checkout": null
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+(footprint "TerminalBlock_HCTL_HC15EDGRC-3.81-3P_1x03_P3.81mm_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "插拔式接线端子，间距：3.81mm，PIN数：3，方向：弯插")
+	(tags "插拔式接线端子")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b173f41b-9ac4-49aa-ab62-86e4565423d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TerminalBlock_HCTL_HC15EDGRC-3.81-3P_1x03_P3.81mm_Horizontal"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d6f523ed-bc01-4365-8439-ab850174b233")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://item.szlcsc.com/datasheet/HC15EDGRC-3.81-4P-V/23830850.html"
+		(at -13.57 -19.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d550d66f-1279-41cd-b466-811e9cc4dc6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -13.57 -19.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a2f7389-31aa-43dd-b4b1-b8c12b85a1a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.115 -9.3)
+		(end -4.32031 -9.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "45a6c09e-3a19-498c-9bc1-2078912b9b37")
+	)
+	(fp_line
+		(start -6.115 0)
+		(end -6.115 -9.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "333d3099-e205-4eee-b1d1-4b1816dea2d7")
+	)
+	(fp_line
+		(start -3.29969 -9.3)
+		(end -0.51031 -9.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a77aa376-9560-496b-96fa-54215b3a3511")
+	)
+	(fp_line
+		(start 0.51031 -9.3)
+		(end 3.29969 -9.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b589c736-c9f5-4cc3-93a0-c5e630a9bb65")
+	)
+	(fp_line
+		(start 4.32031 -9.3)
+		(end 6.115 -9.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5b7e8f28-9b6d-402e-a03a-644dd4353113")
+	)
+	(fp_line
+		(start 6.115 -9.3)
+		(end 6.115 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "922406e5-67ed-4996-8c95-e708db689e70")
+	)
+	(fp_line
+		(start 6.115 0)
+		(end -6.115 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dbd2c995-40c0-4a40-b061-b46afb5edc14")
+	)
+	(fp_rect
+		(start -6.115 -9.3)
+		(end 6.115 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f41d2cf4-03f8-4064-b8a7-94fcbaf4b268")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "61f28de1-e56b-4c0a-b1f3-35856aff3013")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 -8.1)
+		(size 2.1 2.1)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ddd407c8-3076-450f-b653-01d90ca8144a")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -8.1)
+		(size 2.1 2.1)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d4647b78-be72-439b-9dfa-7b5d8c059309")
+	)
+	(pad "3" thru_hole circle
+		(at 3.81 -8.1)
+		(size 2.1 2.1)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c0aa3cd7-6773-4bef-8227-71d112c3006b")
+	)
+	(embedded_fonts no)
+	(model "${FLORI_KICAD_DIR}/3dmodels/Flori_Connector.3dshapes/TerminalBlock_HCTL_HC15EDGRC-3.81-3P_1x03_P3.81mm_Horizontal.step"
+		(offset
+			(xyz -0.465 4.65 3.59)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

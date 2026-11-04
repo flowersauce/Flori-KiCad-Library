@@ -1,0 +1,235 @@
+(footprint "TerminalBlock_HCTL_HC15EDGRC-3.81-4P_1x04_P3.81mm_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "插拔式接线端子，间距：3.81mm，PIN数：4，方向：弯插")
+	(tags "插拔式接线端子")
+	(property "Reference" "REF**"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b173f41b-9ac4-49aa-ab62-86e4565423d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TerminalBlock_HCTL_HC15EDGRC-3.81-4P_1x04_P3.81mm_Horizontal"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d6f523ed-bc01-4365-8439-ab850174b233")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://item.szlcsc.com/datasheet/HC15EDGRC-3.81-4P-V/23830850.html"
+		(at -13.57 -20.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d550d66f-1279-41cd-b466-811e9cc4dc6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -13.57 -20.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a2f7389-31aa-43dd-b4b1-b8c12b85a1a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -8.02 -9.3)
+		(end -6.22531 -9.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f0d0bbc0-7726-41fe-afb2-d34e92b545e5")
+	)
+	(fp_line
+		(start -8.02 0)
+		(end -8.02 -9.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d9e3c3f2-66a3-40f4-8b7a-7ffca21e7834")
+	)
+	(fp_line
+		(start -5.20469 -9.3)
+		(end -2.41531 -9.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "43e196ab-7b39-417d-b603-a7a82cf3875b")
+	)
+	(fp_line
+		(start -1.39469 -9.3)
+		(end 1.39469 -9.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0e28cf60-4ab8-44c3-9c89-9f0267198c0e")
+	)
+	(fp_line
+		(start 2.41531 -9.3)
+		(end 5.20469 -9.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "94c41a66-3cd0-4244-b30a-8d5fc1cff37b")
+	)
+	(fp_line
+		(start 6.22531 -9.3)
+		(end 8.02 -9.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "653756a8-fc71-49b5-9756-ad549529d3f4")
+	)
+	(fp_line
+		(start 8.02 -9.3)
+		(end 8.02 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "66438ec5-a170-435b-9678-bd8107554e9b")
+	)
+	(fp_line
+		(start 8.02 0)
+		(end -8.02 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "541c844c-df52-4a46-b82b-291eefb4198c")
+	)
+	(fp_line
+		(start -8.02 -9.3)
+		(end 8.02 -9.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9ce64ce4-475f-4e45-b79a-a5d882763414")
+	)
+	(fp_line
+		(start -8.02 0)
+		(end -8.02 -9.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6937d567-be9a-41f0-bc20-e6878bb6c66f")
+	)
+	(fp_line
+		(start 8.02 -9.3)
+		(end 8.02 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7bc439d1-b7cf-4a42-8a44-b757627c1e13")
+	)
+	(fp_line
+		(start 8.02 0)
+		(end -8.02 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5453e7b-cb14-4c56-af20-9187e8b7a844")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "61f28de1-e56b-4c0a-b1f3-35856aff3013")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5.715 -8.1)
+		(size 2.1 2.1)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fc232a98-3ddd-49a8-bef5-e58473f4f293")
+	)
+	(pad "2" thru_hole circle
+		(at -1.905 -8.1)
+		(size 2.1 2.1)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5c4c0cf4-93ff-4211-b070-246d050ca6cd")
+	)
+	(pad "3" thru_hole circle
+		(at 1.905 -8.1)
+		(size 2.1 2.1)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6694a335-45df-46e1-922e-d188ef7b87b2")
+	)
+	(pad "4" thru_hole circle
+		(at 5.715 -8.1)
+		(size 2.1 2.1)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8877d6fc-eecb-4d54-aa1c-4aa8ad719e02")
+	)
+	(embedded_fonts no)
+	(model "${FLORI_KICAD_DIR}/3dmodels/Flori_Connector.3dshapes/TerminalBlock_HCTL_HC15EDGRC-3.81-4P_1x04_P3.81mm_Horizontal.step"
+		(offset
+			(xyz -2.375 4.65 3.59)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -40,3 +40,14 @@ fp-info-cache
 *.kicad_prl
 
 .idea/
+
+# Local migration backups and Python caches
+/tmp/
+__pycache__/
+
+# Local links/copies for legacy resource variables; canonical assets stay single-source
+/compat/3dmodels/
+/compat/resources/
+
+# PCM packages, metadata sidecars and repository indexes
+/dist/

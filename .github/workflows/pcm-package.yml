@@ -1,0 +1,118 @@
+name: PCM 打包与发布
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:
+    inputs:
+      status:
+        description: '包状态'
+        type: choice
+        options: [testing, stable, development]
+        default: testing
+      publish:
+        description: '发布 GitHub Release（仅 main，默认仅生成制品）'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  # 从读取旧索引到上传附件，所有发布共享同一把锁。
+  group: pcm-${{ github.ref == 'refs/heads/main' && 'release' || github.run_id }}
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.parameters.outputs.version }}
+      status: ${{ steps.parameters.outputs.status }}
+      publish: ${{ steps.parameters.outputs.publish }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: 确定版本和发布模式
+        id: parameters
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          REF: ${{ github.ref }}
+          INPUT_STATUS: ${{ inputs.status }}
+          INPUT_PUBLISH: ${{ inputs.publish }}
+          TZ: Asia/Shanghai
+        run: |
+          version="$(date +%Y.%m%d).$GITHUB_RUN_NUMBER"
+          if [[ "$EVENT_NAME" == workflow_dispatch ]]; then
+            status="$INPUT_STATUS"
+            publish="$INPUT_PUBLISH"
+            if [[ "$publish" == true && "$REF" != refs/heads/main ]]; then
+              echo '仅允许从 main 发布 Release。' >&2
+              exit 1
+            fi
+          elif [[ "$REF" == refs/heads/main ]]; then
+            status=stable
+            publish=true
+          else
+            status=development
+            publish=false
+          fi
+          if [[ ! "$version" =~ ^[0-9]{4}\.[0-9]{4}\.[0-9]{1,6}$ ]]; then
+            echo '自动版本超出 PCM 支持的位数。' >&2
+            exit 1
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+          echo "publish=$publish" >> "$GITHUB_OUTPUT"
+      - name: 生成 PCM 包及索引
+        env:
+          VERSION: ${{ steps.parameters.outputs.version }}
+          STATUS: ${{ steps.parameters.outputs.status }}
+          PUBLISH: ${{ steps.parameters.outputs.publish }}
+        run: |
+          history=()
+          if [[ "$PUBLISH" == true ]]; then
+            history=(--previous-packages-url "https://github.com/$GITHUB_REPOSITORY/releases/latest/download/packages.json")
+          fi
+          python tools/build_pcm.py --version "$VERSION" --status "$STATUS" --repository "$GITHUB_REPOSITORY" --source-commit "$GITHUB_SHA" "${history[@]}"
+      - uses: actions/upload-artifact@v7
+        with:
+          name: Flori-PCM-${{ steps.parameters.outputs.version }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: dist/pcm/${{ steps.parameters.outputs.version }}/
+          if-no-files-found: error
+          retention-days: 30
+
+  release:
+    needs: package
+    if: needs.package.outputs.publish == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          name: Flori-PCM-${{ needs.package.outputs.version }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: release-assets
+      - name: 发布不可覆盖的版本
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ needs.package.outputs.version }}
+          STATUS: ${{ needs.package.outputs.status }}
+        run: |
+          options=(--latest)
+          if [[ "$STATUS" != stable ]]; then
+            options=(--prerelease --latest=false)
+          fi
+          # 已存在的 Release 会由 gh 拒绝；不使用上传覆盖或删除命令。
+          gh release create "v$VERSION" --repo "$GITHUB_REPOSITORY" \
+            --target "$GITHUB_SHA" --title "$VERSION" \
+            --notes-file release-assets/release-notes.md "${options[@]}" \
+            release-assets/*.zip release-assets/*.sha256 release-assets/*.metadata.json \
+            release-assets/packages.json release-assets/repository.json
