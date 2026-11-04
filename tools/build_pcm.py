@@ -212,7 +212,7 @@ def main() -> None:
     })
     notes = (
         f"# Flori KiCad Library {args.version}\n\n"
-        f"发布状态：`{args.status}`；需要 KiCad 10，昵称前缀保持 `PCM_`。\n\n"
+        f"发布状态：`{args.status}`；需要 KiCad 10。\n\n"
         f"下载 `{basename}.zip`，在 PCM 中选择“从文件安装”。"
         "安装后可在包的 resources 目录阅读 INSTALL_zh.md；旧工程兼容脚本按需执行。\n\n"
         f"PCM 订阅入口：{index_url}/repository.json\n\n"

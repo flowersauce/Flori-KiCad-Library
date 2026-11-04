@@ -3,6 +3,24 @@ name: PCM 打包与发布
 on:
   push:
     branches: ['**']
+    # 仅监听安装包输入和构建逻辑；普通维护文档不触发打包。
+    paths:
+      - 'symbols/**'
+      - 'footprints/**'
+      - '3dmodels/**'
+      - 'resources/datasheets/**'
+      - 'resources/drawings/**'
+      - 'pcm/**'
+      - 'tools/build_pcm.py'
+      - 'tools/configure_pcm.py'
+      - 'tools/library_io.py'
+      - 'tools/sync_compat.py'
+      - 'tools/library-layout.json'
+      - 'docs/audits/imported-stock-assets-2026-11-04.json'
+      - 'docs/audits/flori-migration-2026-11-04.json'
+      - 'LICENSE'
+      - 'LICENSES/KiCad-Libraries-LICENSE.md'
+      - '.github/workflows/pcm-package.yml'
   pull_request:
     types: [opened, synchronize, reopened]
   workflow_dispatch:
@@ -47,6 +65,7 @@ jobs:
           REF: ${{ github.ref }}
           INPUT_STATUS: ${{ inputs.status }}
           INPUT_PUBLISH: ${{ inputs.publish }}
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
           TZ: Asia/Shanghai
         run: |
           version="$(date +%Y.%m%d).$GITHUB_RUN_NUMBER"
@@ -62,6 +81,10 @@ jobs:
             publish=true
           else
             status=development
+            publish=false
+          fi
+          # 保留打包检查；仅跳过此次 push 的正式发布，不影响手动发布。
+          if [[ "$EVENT_NAME" == push && "$COMMIT_MESSAGE" == *"[skip release]"* ]]; then
             publish=false
           fi
           if [[ ! "$version" =~ ^[0-9]{4}\.[0-9]{4}\.[0-9]{1,6}$ ]]; then
