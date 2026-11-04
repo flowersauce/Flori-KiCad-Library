@@ -20,8 +20,7 @@
    封装主库为 `PCM_Flori_Package`、`PCM_Flori_Device`、`PCM_Flori_Connector`、
    `PCM_Flori_Electromechanical` 和 `PCM_Flori_Mechanical`。
 
-脚本同时注册旧 `Flowersauce_*` 和 `PCM_Flowersauce_*` 别名、刷新兼容文件，并设置两个资源变量。
-`FLORI_KICAD_DIR` 指向仓库根目录，`FLOWERSAUCE_KICAD_DIR` 指向其 `compat` 目录。
+脚本仅注册 `PCM_Flori_*` 主库，并设置指向仓库根目录的 `FLORI_KICAD_DIR`。
 其他已注册库保持原样，修改配置前会生成备份。可用 `--dry-run` 预览。
 此流程不修改 KiCad 官方安装目录中的文件。
 
@@ -32,15 +31,8 @@
 1. 切换版本或设备前，保存并关闭相关库编辑器，避免旧的内存副本覆盖新拉取的内容。
 2. 编辑前检查工作区。在本地修改已经提交或妥善保存的前提下，用 `git pull --ff-only` 更新共享分支。
 3. 编辑 `symbols/Flori_*`、`footprints/Flori_*` 及其外置资源。
-   保存到库后，刷新兼容文件：
-
-   ```powershell
-   python tools/sync_compat.py
-   ```
-
-4. 检查差异，将主库修改与发生变化的 `compat/symbols`、`compat/footprints` 生成文件一起提交并推送。
+4. 检查差异，将相关符号、封装和资源一起提交并推送。
 5. 在另一台设备拉取后，重新加载相关库编辑器或选择器。
-   如果旧工程仍引用历史资源路径，在拉取模型或资料更新后运行同一刷新命令，更新本地链接。
 
 相互依赖的符号、封装和模型尽量放在同一次提交中。
 在设备间交换提交后再继续编辑同一 `.kicad_sym`，避免两边各自修改而产生分歧。
@@ -48,10 +40,7 @@
 
 主库直接读取工作副本，更新器件或在已有分类内新增条目，无需重新安装或发布包。
 新增整个 `.kicad_sym` 或 `.pretty` 分类、移动工作副本或使用新 KiCad 配置时，再运行注册脚本。
-注册可重复执行，也会刷新兼容数据。
-
-新设计使用主库昵称。旧别名覆盖 [library-layout.json](../tools/library-layout.json) 中记录的历史成员，
-新器件不必加入这些旧目录。生成的 `compat/` 文件按只读使用，详见[兼容层维护](../compat/README.md)。
+注册可重复执行，所有器件使用 `PCM_Flori_*` 主库昵称，不维护历史别名。
 
 Git 更新不会自动改写原理图或 PCB 内已经保存的器件副本。
 按需使用“从库更新符号”（Update Symbols from Library）、
@@ -67,7 +56,7 @@ PCM 用于分发带标签的版本快照，适合主要放置器件、按发布�
 源码配置与 PCM 安装使用同一组主库 ID，避免同时让发布版和工作副本占用同一个库表条目。
 
 PCM 昵称前缀保持默认 `PCM_`。
-打包、路径转换及旧别名兼容方案见 [PCM 打包与发布](pcm-packaging.md)。
+打包和路径转换见 [PCM 打包与发布](pcm-packaging.md)。
 源码配置脚本不会构建、发布或安装 PCM 包。
 
 ## 仓库名称与本地目录

@@ -14,7 +14,6 @@ from pathlib import Path
 from urllib.error import HTTPError
 from urllib.request import urlopen
 
-from sync_compat import compatibility_outputs, load_layout
 from pcm_manifest import collect_files, load_manifest
 
 
@@ -26,18 +25,10 @@ def digest(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
-def installed_path(relative: str, identifier: str) -> str:
-    category, rest = relative.split("/", 1)
-    return f"{category}/{identifier}/{rest}"
-
-
-def package_payload(root: Path, identifier: str, version: str) -> dict[str, bytes]:
-    """只收集明确的库与资源类型；兼容定义直接从当前主库生成。"""
-    layout = load_layout(root)
+def package_payload(root: Path, identifier: str) -> dict[str, bytes]:
+    """按共用清单收集主库及资源，并转换包内引用。"""
     clean_identifier = identifier.replace(".", "_")
     payload = collect_files(root, load_manifest(root))
-    for path, data in compatibility_outputs(root, layout).items():
-        payload[path.relative_to(root / "compat").as_posix()] = data
     if not any(name.startswith("symbols/Flori_") for name in payload):
         raise ValueError("未找到主符号库")
     for name, data in list(payload.items()):
@@ -64,27 +55,6 @@ def package_payload(root: Path, identifier: str, version: str) -> dict[str, byte
                 raise ValueError(f"{name} 引用了包内缺失封装：{library}:{footprint}")
         payload[name] = text.encode("utf-8")
 
-    legacy = {}
-    for kind, folder, suffix in (
-        ("symbol", "symbols", ".kicad_sym"),
-        ("footprint", "footprints", ".pretty"),
-    ):
-        legacy[kind] = {
-            alias: installed_path(f"{folder}/{nickname}{suffix}", clean_identifier)
-            for nickname in layout[folder]
-            for alias in (nickname, "PCM_" + nickname)
-        }
-    resource_aliases = {}
-    for previous, current in layout["resource_aliases"].items():
-        if current not in payload:
-            raise ValueError(f"兼容资源不在包中：{current}")
-        resource_aliases[previous] = installed_path(current, clean_identifier)
-    payload["resources/pcm-install.json"] = json_bytes({
-        "identifier": identifier,
-        "version": version,
-        "legacy_libraries": legacy,
-        "resource_aliases": resource_aliases,
-    })
     return payload
 
 
@@ -122,7 +92,7 @@ def main() -> None:
                if not key.startswith("download_") and key != "install_size"}
     version.update(version=args.version, status=args.status)
     metadata["versions"] = [version]
-    payload = package_payload(root, identifier, args.version)
+    payload = package_payload(root, identifier)
     version["install_size"] = sum(map(len, payload.values()))
     payload["metadata.json"] = json_bytes(metadata)
     buffer = io.BytesIO()
@@ -185,7 +155,7 @@ def main() -> None:
         f"# Flori KiCad Library {args.version}\n\n"
         f"发布状态：`{args.status}`；需要 KiCad 10。\n\n"
         f"下载 `{basename}.zip`，在 PCM 中选择“从文件安装”。"
-        "安装后可在包的 resources 目录阅读 INSTALL_zh.md；旧工程兼容脚本按需执行。\n\n"
+        "安装后可在包的 resources 目录阅读 INSTALL_zh.md。\n\n"
         f"PCM 订阅入口：{index_url}/repository.json\n\n"
         "详细变更请参阅对应标签的 Git 提交记录。\n"
     )

@@ -45,7 +45,6 @@ ${FLORI_KICAD_DIR}/3dmodels/Flori_Package.3dshapes/WSON-8-1EP_6x5mm_P1.27mm_EP3.
   模型共用关系、符号引用变更及来源信息。
 - [原始检查快照](audits/stock-model-candidates-2026-11-04.json)：导入前，相比官方标签多出的 6 个模型路径。
 - [Flori 迁移记录](audits/flori-migration-2026-11-04.json)：当前路径和 ID；更早的导入记录保留重新分类前的名称。
-- [兼容层](../compat/README.md)：历史 ID 的生成式兼容支持。
 - [上游授权说明](../LICENSES/README.md)：保留的 KiCad 署名和许可证。
 - [开发维护流程](development-workflow.md)：源码配置与日常更新。
 

@@ -115,6 +115,20 @@ class ManifestTests(unittest.TestCase):
         with patch("pcm_manifest.changed_paths", return_value=["README.md", "pcm/install.md"]):
             self.assertTrue(should_build(self.root, self.manifest, "push", event))
 
+    def test_payload_contains_only_current_libraries(self):
+        from build_pcm import package_payload
+
+        self.write("symbols/Flori_Test.kicad_sym", b'(kicad_symbol_lib (version 20241209))')
+        self.write("footprints/Flori_Test.pretty/Test.kicad_mod", b'(footprint "Test")')
+        self.manifest["files"] = [
+            {"source": "symbols/Flori_*.kicad_sym"},
+            {"source": "footprints/Flori_*.pretty/*.kicad_mod"},
+        ]
+        self.write(MANIFEST_PATH, json.dumps(self.manifest).encode())
+        self.assertEqual(set(package_payload(self.root, "example.flori")), {
+            "symbols/Flori_Test.kicad_sym", "footprints/Flori_Test.pretty/Test.kicad_mod",
+        })
+
 
 if __name__ == "__main__":
     unittest.main()

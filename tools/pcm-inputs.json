@@ -7,8 +7,6 @@
     {"source": "3dmodels/Flori_*.3dshapes/*", "suffixes": [".step", ".stp", ".wrl"]},
     {"source": "resources/datasheets/**/*", "suffixes": [".pdf"]},
     {"source": "resources/drawings/**/*", "suffixes": [".dwg"]},
-    {"source": "tools/configure_pcm.py", "target": "resources/configure_pcm.py"},
-    {"source": "tools/library_io.py", "target": "resources/library_io.py"},
     {"source": "pcm/INSTALL_zh.md", "target": "resources/INSTALL_zh.md"},
     {"source": "pcm/LICENSES_zh.md", "target": "resources/licenses/README.md"},
     {"source": "LICENSE", "target": "resources/licenses/LICENSE"},
@@ -27,8 +25,6 @@
   "build_inputs": [
     "tools/build_pcm.py",
     "tools/pcm_manifest.py",
-    "tools/sync_compat.py",
-    "tools/library-layout.json",
     ".github/workflows/pcm-package.yml"
   ]
 }

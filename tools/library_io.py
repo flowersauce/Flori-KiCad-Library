@@ -102,12 +102,9 @@ def merge_library_table(original: bytes, table_name: str, libraries: dict[str, s
     for name, uri in libraries.items():
         if name in seen:
             continue
-        description = "Legacy compatibility alias" if name.startswith(
-            ("Flowersauce_", "PCM_Flowersauce_")
-        ) else ""
         additions.append(
             f'\t(lib (name {json.dumps(name)}) (type "KiCad") '
-            f'(uri {json.dumps(uri)}) (options "") (descr {json.dumps(description)})){newline}'
+            f'(uri {json.dumps(uri)}) (options "") (descr "")){newline}'
         )
     if additions:
         separator = "" if text[:closing].endswith(("\n", "\r")) else newline

@@ -36,24 +36,22 @@ resources/
 python tools/configure_library.py --register-libraries
 ```
 
-脚本会刷新生成的兼容文件，并配置以下两个变量：
+脚本配置以下资源变量：
 
 | 变量 | 值 | 用途 |
 | --- | --- | --- |
 | `FLORI_KICAD_DIR` | 仓库根目录 | 当前主库和资源 |
-| `FLOWERSAUCE_KICAD_DIR` | 仓库根目录下的 `/compat` | 历史资源路径 |
 
 使用 `--register-libraries` 时，脚本将发现的 `Flori_*` 文件注册为 `PCM_Flori_*`，
-并通过旧聚合库注册 `Flowersauce_*` 和 `PCM_Flowersauce_*` 别名。
+不注册旧名称或别名。
 其他库和设置保持原样，发生修改的配置文件会先备份。新设备应先完成 KiCad 标准库初始化。
 
-不使用 `--register-libraries` 时，只刷新变量和兼容文件，不修改库表注册。
+不使用 `--register-libraries` 时，只配置资源变量，不修改库表注册。
 `--dry-run` 用于预览，不写入文件；自定义配置位置可使用
 `--config-dir <versioned-profile-directory>`。KiCad 自带的 Python 也可以运行这些脚本。
 此流程配置的是源码工作副本，不会安装 PCM 发布包。
 
 可在“首选项 → 配置路径”（Preferences > Configure Paths）中查看变量。
-脚本同时负责建立旧资源路径和兼容注册，仅手动填写变量不能替代这些操作。
 同名操作系统环境变量优先于 KiCad 配置；存在冲突时，需要单独修改外部变量。
 
 ## 新增或更新模型
@@ -101,7 +99,6 @@ HTTP 403 可能只是限制自动访问；HTTP 200 也可能返回 HTML 错误�
 
 曾放入 KiCad 安装目录的下载模型，参见[官方封装与补充模型导入说明](../docs/stock-model-supplements.md)。
 日常 Git 更新和重新注册时机见[开发维护流程](../docs/development-workflow.md)。
-[兼容层说明](../compat/README.md)介绍了旧模型和手册路径的支持方式，二进制资源无需在 Git 中保存两套。
 
 ## PCM 打包
 
@@ -116,8 +113,7 @@ HTTP 403 可能只是限制自动访问；HTTP 200 也可能返回 HTML 错误�
 PCM 库昵称前缀保持默认 `PCM_`，使 `Flori_*` 文件安装后得到与源码配置相同的 `PCM_Flori_*` ID。
 
 源码配置脚本不会构建或发布包。独立构建器与 GitHub Actions 负责生成元数据、转换包内路径，
-并附带旧库定义与可选兼容配置工具，详见 [PCM 打包与发布](../docs/pcm-packaging.md)。
-仅安装 PCM 主包不会自动注册不带前缀的旧昵称，按包内说明执行兼容配置。
+只分发当前 Flori 主库，详见 [PCM 打包与发布](../docs/pcm-packaging.md)。
 
 参考：[KiCad 路径配置](https://docs.kicad.org/10.0/en/kicad/kicad.html#_paths_and_libraries_configuration)、
 [PCM 打包规范](https://dev-docs.kicad.org/en/addons/index.html)、

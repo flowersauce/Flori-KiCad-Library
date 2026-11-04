@@ -32,13 +32,13 @@
   有本地手册时优先引用本地文件，没有本地副本时保留在线链接。
 - 克隆或移动工作副本后，关闭 KiCad，在仓库根目录运行
   `python tools/configure_library.py --register-libraries`，配置资源根目录、
-  刷新兼容文件，并将主库和旧库别名合并注册到当前设备的库表。
+  并将 Flori 主库注册到当前设备的库表。
 
 具体规则见[资源维护与 PCM 路径映射](resources/README.md)。
 多台开发机频繁修改库时，按[Git 工作副本维护流程](docs/development-workflow.md)操作。
-设备配置、兼容刷新和打包等维护入口见[工具说明](tools/README.md)。
+设备配置和打包等维护入口见[工具说明](tools/README.md)。
 自动化维护约定见 [AGENTS.md](AGENTS.md)，打包输入与触发规则统一维护在 `tools/pcm-inputs.json`。
-旧 `Flowersauce_*` 和 `PCM_Flowersauce_*` 名称由生成的[兼容层](compat/README.md)支持。
+库仅提供 `PCM_Flori_*` 分类，不提供旧名称兼容别名。
 导入的上游资源保留各自许可证，详见[授权与来源说明](LICENSES/README.md)。
 
 ## 维护约定
@@ -48,8 +48,7 @@
 - 连接器符号优先使用官方库，本库主要维护自定义连接器封装。
 - 封装与模型主库为 `Flori_Package`、`Flori_Device`、`Flori_Connector`、
   `Flori_Electromechanical` 和 `Flori_Mechanical`。
-- 新器件和新关联使用 `PCM_Flori_*` ID。日常编辑主库；修改已有器件后，
-  提交前运行 `python tools/sync_compat.py`，刷新生成的旧库定义。
+- 新器件和新关联使用 `PCM_Flori_*` ID，日常直接编辑主库，无需维护旧库副本。
 - 说明文档使用简体中文。库文件、器件和资源文件使用不含空格的英文名称，
   单个符号与封装尽量遵循 KiCad 官方命名风格。
 - IC 符号使用准确料号，或有明确意图的兼容系列名。

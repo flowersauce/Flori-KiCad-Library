@@ -27,31 +27,4 @@
 
 建议保留安装包、`.sha256`、版本号和报错日志，便于反馈问题。
 
-## 旧工程兼容配置（按需）
-
-包内包含生成的旧聚合库，因此默认 PCM 注册会提供 `PCM_Flowersauce_*` 昵称。
-不带前缀的 `Flowersauce_*` 昵称及 `${FLOWERSAUCE_KICAD_DIR}` 历史资源路径需要额外配置。
-仅使用 `PCM_Flori_*` 的新工程无需此步骤。
-
-在 PCM 中打开包目录，进入：
-
-```text
-resources/com_github_flowersauce_flori-kicad-library/
-```
-
-关闭 KiCad，在该目录使用 Python 3.10 或更高版本运行：
-
-```powershell
-python configure_pcm.py --dry-run
-python configure_pcm.py
-```
-
-没有系统 Python 时，可使用 KiCad 安装目录中的 Python。
-自定义 KiCad 配置目录可增加 `--config-dir <版本配置目录>`。
-脚本会备份配置文件，仅合并旧别名、设置历史资源变量，并生成本地资源链接；
-不修改官方库，也不重定向 `PCM_Flori_*` 主库昵称。
-
-PCM 更新会替换包目录。依赖旧别名或历史资源路径的工程，更新后重新运行兼容脚本。
-资源链接优先使用硬链接，无法建立时退回复制，兼容资源按只读使用。
-
-若安装失败或显示异常，请反馈版本、KiCad 版本、库昵称、错误信息及有问题的器件 ID。
+本库只提供 `PCM_Flori_*` 分类，不包含旧名称兼容库或安装后配置脚本。

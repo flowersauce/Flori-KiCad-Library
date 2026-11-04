@@ -2,12 +2,10 @@
 
 | 入口 | 用途 |
 | --- | --- |
-| `configure_library.py` | 开发机注册源码主库、旧昵称和资源变量 |
-| `sync_compat.py` | 从主库刷新旧库定义和本机历史资源链接 |
-| `configure_pcm.py` | PCM 安装后的旧工程兼容配置；运行包内副本 |
+| `configure_library.py` | 开发机注册 Flori 源码主库和资源变量 |
 | `build_pcm.py` | 生成 PCM 包、摘要和在线索引；CI 自动调用 |
 | `pcm-inputs.json`、`pcm_manifest.py` | 共用打包输入清单、文件收集和 CI 变更判断 |
-| `library_io.py`、`library-layout.json` | 以上工具共用的解析逻辑与历史映射 |
+| `library_io.py` | 源码配置使用的 KiCad 库表解析逻辑 |
 
 只将长期维护、反复使用的通用工具放在这里。具体器件的一次性生成脚本不收入本库，
 需要追溯的配方由对应硬件项目保存。使用官方生成器时，结果在独立输出目录检查后再合并进正式库。

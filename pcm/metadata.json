@@ -2,7 +2,7 @@
   "$schema": "https://go.kicad.org/pcm/schemas/v2",
   "name": "Flori KiCad Library",
   "description": "适用于 KiCad 10 的个人符号、封装、3D 模型及本地资料库。",
-  "description_full": "Flori 主库使用 PCM_Flori_* 昵称，包含外置 3D 模型、本地资料及中文安装说明。包内附带 PCM_Flowersauce_* 历史兼容库；可选 Python 工具用于配置不带前缀的旧库昵称和历史资源路径。",
+  "description_full": "Flori 库使用 PCM_Flori_* 昵称，包含外置 3D 模型、本地资料及中文安装说明。安装后直接使用 Flori 分类，不包含旧名称兼容库，也不需要额外配置脚本。",
   "identifier": "com.github.flowersauce.flori-kicad-library",
   "type": "library",
   "author": {

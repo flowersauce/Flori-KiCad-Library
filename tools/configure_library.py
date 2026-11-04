@@ -1,4 +1,4 @@
-"""Configure Flori source libraries, canonical PCM nicknames and legacy aliases."""
+"""Configure Flori source libraries and canonical PCM nicknames."""
 
 from __future__ import annotations
 
@@ -11,11 +11,9 @@ import uuid
 from pathlib import Path
 
 from library_io import merge_library_table
-from sync_compat import legacy_libraries, synchronize
 
 
 VARIABLE = "FLORI_KICAD_DIR"
-LEGACY_VARIABLE = "FLOWERSAUCE_KICAD_DIR"
 
 
 def configuration_directory(version: str) -> Path:
@@ -39,14 +37,14 @@ def main() -> None:
     parser.add_argument("--dry-run", action="store_true", help="Preview without writing files")
     parser.add_argument(
         "--register-libraries", action="store_true",
-        help="Merge canonical Flori libraries and historical aliases into the global tables",
+        help="Merge canonical Flori libraries into the global tables",
     )
     args = parser.parse_args()
     repo_root = Path(__file__).resolve().parents[1]
     for directory in ("symbols", "footprints", "3dmodels", "resources/datasheets"):
         if not (repo_root / directory).is_dir():
             parser.error(f"This checkout is missing {directory}")
-    roots = {VARIABLE: repo_root, LEGACY_VARIABLE: repo_root / "compat"}
+    roots = {VARIABLE: repo_root}
     for name, root in roots.items():
         external = os.environ.get(name)
         if external and Path(external).expanduser().resolve() != root:
@@ -88,8 +86,6 @@ def main() -> None:
                 libraries["PCM_" + path.stem] = (
                     "${" + VARIABLE + "}/" + path.relative_to(repo_root).as_posix()
                 )
-            canonical_count = len(libraries)
-            libraries.update(legacy_libraries(repo_root, kind))
             table_path = profile / filename
             try:
                 table_original = table_path.read_bytes()
@@ -101,13 +97,8 @@ def main() -> None:
                 parser.error(f"{table_path}: {error}")
             if table_updated != table_original:
                 changes.append((table_path, table_original, table_updated))
-            print(
-                f"Libraries: {canonical_count} canonical + "
-                f"{len(libraries) - canonical_count} compatibility in {table_path}"
-            )
+            print(f"Libraries: {len(libraries)} in {table_path}")
 
-    compatibility = synchronize(repo_root, dry_run=args.dry_run)
-    print(f"Compatibility refresh: {json.dumps(compatibility)}")
     for path, _, _ in changes:
         print(f"{'Would update' if args.dry_run else 'Updating'}: {path}")
     if args.dry_run:
