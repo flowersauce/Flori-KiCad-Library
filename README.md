@@ -61,4 +61,5 @@
 - 库字段中不保存供应商、价格或临时导入元数据。
 
 [Flori 迁移记录](docs/audits/flori-migration-2026-11-04.json)保存旧 ID 和资源路径到当前结构的映射。
-更早的审计记录保留当时的名称。本地项目目录和 Git 远程地址目前保持原样，上游仓库改名暂缓处理。
+更早的审计记录保留当时的名称。上游仓库现为 [Flori-KiCad-Library](https://github.com/flowersauce/Flori-KiCad-Library)，
+本地项目目录保持原样，Git 远程地址使用新仓库名。PCM 包标识保持不变，以便已安装设备继续更新。

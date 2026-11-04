@@ -146,7 +146,7 @@ ZIP 文件顺序、时间戳及权限固定，摘要按实际 ZIP 字节计算�
 发布首个稳定 Release 后，可在 PCM 仓库管理中添加：
 
 ```text
-https://github.com/flowersauce/Flowersauce_KiCad_Library/releases/latest/download/repository.json
+https://github.com/flowersauce/Flori-KiCad-Library/releases/latest/download/repository.json
 ```
 
 该入口跟随最新稳定版本，内含的 `packages.json` 摘要与同版附件配套。

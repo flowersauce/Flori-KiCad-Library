@@ -73,9 +73,13 @@ PCM 昵称前缀保持默认 `PCM_`。
 ## 仓库名称与本地目录
 
 上游仓库名、本地工作副本目录和 KiCad 库昵称互相独立。
-上游改名后不必重命名或重新克隆本地目录。
-实际完成上游改名后，如需更新远程地址，可执行
-`git remote set-url origin <new-repository-url>`。
+当前上游为 `flowersauce/Flori-KiCad-Library`，不必重命名或重新克隆本地目录。
+已有设备更新远程地址可执行：
+
+```powershell
+git remote set-url origin git@github.com:flowersauce/Flori-KiCad-Library.git
+```
+
 只要工作副本位置不变，本机资源变量仍然有效。
 
 参考：[KiCad 路径变量](https://docs.kicad.org/10.0/en/kicad/kicad.html#_paths_and_libraries_configuration)、
