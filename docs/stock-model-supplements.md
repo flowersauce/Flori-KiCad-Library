@@ -12,7 +12,7 @@
 | `QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm_ThermalVias` | `Package_DFN_QFN` | 同主文件名，扩展名为 `.step` |
 | `WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm` | `Package_SON` | 同主文件名，扩展名为 `.step` |
 | `WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm` | `Package_SON` | 同主文件名，扩展名为 `.step` |
-| `SOT-723` | `Package_TO_SOT_SMD` | 同主文件名，扩展名为 `.step` |
+| `SOT-723` | `Package_TO_SOT_SMD_AKL`（2026-11-15更正） | 同主文件名，扩展名为 `.step` |
 
 例如，选择 `PCM_Flori_Package:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm`，其模型引用为：
 
@@ -50,3 +50,15 @@ ${FLORI_KICAD_DIR}/3dmodels/Flori_Package.3dshapes/WSON-8-1EP_6x5mm_P1.27mm_EP3.
 
 最初的检查依据文件名比较，不能发现所有“以官方同名文件覆盖原模型”的情况。
 以后发现此类资源时，可逐项收录模型，并仅复制需要修改资源引用的必要封装。
+
+## 2026-11-15：SOT-723来源修正
+
+原导入的SOT-723为官方几何，未保留目标工程原有的AKL版本；现改为从已安装的
+`Package_TO_SOT_SMD_AKL:SOT-723`导入，保持现有`PCM_Flori_Package:SOT-723` ID。
+焊盘1/2为0.45×0.40mm，焊盘3为0.45×0.50mm，与目标PCB中多数DTC114EM一致；本次读取时10颗与AKL一致，Q19的3脚仍为0.45×0.40mm。
+转换为KiCad 10格式并删除上游一条零长度Courtyard线段；其余几何保留AKL版本。
+继续引用本库原有`SOT-723.step`，模型字节和变换不变。上述“仅修改模型URI”的历史描述不适用于本次修正。
+
+来源及文件哈希见[修正记录](audits/sot-723-akl-repair-2026-11-15.json)，
+授权见[AKL来源说明](../LICENSES/Alternate-KiCad-Library-NOTICE.md)。
+本次只改库源码，未安装PCM、未同步其他工程。

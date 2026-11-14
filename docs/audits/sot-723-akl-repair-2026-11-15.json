@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-15",
+  "source_library_id": "Package_TO_SOT_SMD_AKL:SOT-723",
+  "source_repository": "https://github.com/DawidCislo/Alternate-KiCad-Library",
+  "source_path_in_repository": "Footprints/Package_TO_SOT_SMD_AKL.pretty/SOT-723.kicad_mod",
+  "source_installed_path": "/home/flowersauce/.local/share/kicad/10.0/3rdparty/footprints/com_github_dawidcislo_alternate-kicad-library/Package_TO_SOT_SMD_AKL.pretty/SOT-723.kicad_mod",
+  "source_sha256": "06d3a5440887dc94be97361c476fb57314d33e255e395c03e6c0c60ae0d67955",
+  "target_library_id": "PCM_Flori_Package:SOT-723",
+  "target_path": "footprints/Flori_Package.pretty/SOT-723.kicad_mod",
+  "target_before_sha256": "7019f50d205393b6383250188b8580afc37143229b2e17b868bf933d5111437a",
+  "target_after_sha256": "8baedb8e9bf95f4b52d0ca779ed6dd0c8fb4de27b7f5e2df6a3e148862a23488",
+  "removed_zero_length_segments": [
+    {
+      "layer": "F.Courtyard",
+      "x_nm": -900000,
+      "y_nm": -900000
+    }
+  ],
+  "model_path": "3dmodels/Flori_Package.3dshapes/SOT-723.step",
+  "model_sha256": "b939be06ab95fedc6021dc886e6dc94f4b04bcd5b54518c0a39ab781608f753c",
+  "model_transform": "offset 0,0,0; scale 1,1,1; rotate 0,0,0 (unchanged)",
+  "license_notice": "LICENSES/Alternate-KiCad-Library-NOTICE.md",
+  "pcb_pad_geometry_verified_refs": [
+    "Q10",
+    "Q11",
+    "Q15",
+    "Q17",
+    "Q21",
+    "Q23",
+    "Q3",
+    "Q4",
+    "Q5",
+    "Q9"
+  ],
+  "pcb_pad_geometry_different_refs": [
+    "Q19"
+  ],
+  "pcb_modified": false,
+  "installed_pcm_modified": false
+}

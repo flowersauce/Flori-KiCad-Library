@@ -13,3 +13,5 @@
 
 导入记录保留导入时使用的路径，当前路径和 ID 见[Flori 迁移记录](../docs/audits/flori-migration-2026-11-04.json)。
 生成的兼容副本保留相同的上游署名信息。
+
+2026-11-15起，SOT-723几何已改用AKL版本，见[AKL来源与授权](Alternate-KiCad-Library-NOTICE.md)及[修正记录](../docs/audits/sot-723-akl-repair-2026-11-15.json)。此前导入记录作为历史快照保留。

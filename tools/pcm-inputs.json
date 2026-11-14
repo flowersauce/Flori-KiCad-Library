@@ -11,6 +11,9 @@
     {"source": "pcm/LICENSES_zh.md", "target": "resources/licenses/README.md"},
     {"source": "LICENSE", "target": "resources/licenses/LICENSE"},
     {"source": "LICENSES/KiCad-Libraries-LICENSE.md", "target": "resources/licenses/KiCad-Libraries-LICENSE.md"},
+    {"source": "LICENSES/Alternate-KiCad-Library-NOTICE.md", "target": "resources/licenses/Alternate-KiCad-Library-NOTICE.md"},
+    {"source": "docs/audits/sot-723-akl-repair-2026-11-15.json", "target": "resources/provenance/sot-723-akl-repair.json"},
+    {"source": "docs/audits/typec-logo-removal-2026-11-15.json", "target": "resources/provenance/typec-logo-removal.json"},
     {
       "source": "docs/audits/imported-stock-assets-2026-11-04.json",
       "target": "resources/provenance/imported-stock-assets.json",
