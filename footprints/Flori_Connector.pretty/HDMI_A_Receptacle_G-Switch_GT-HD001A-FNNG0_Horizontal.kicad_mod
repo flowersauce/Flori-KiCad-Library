@@ -55,6 +55,7 @@
 			)
 		)
 	)
+	(attr smd)
 	(fp_line
 		(start -7.5 -8.646)
 		(end -7.5 -6.094)

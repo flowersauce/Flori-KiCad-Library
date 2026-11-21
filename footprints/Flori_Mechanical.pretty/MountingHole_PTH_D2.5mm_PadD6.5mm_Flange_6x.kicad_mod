@@ -57,7 +57,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr exclude_from_bom)
 	(fp_circle
 		(center 0 0)
 		(end 3.25 0)
