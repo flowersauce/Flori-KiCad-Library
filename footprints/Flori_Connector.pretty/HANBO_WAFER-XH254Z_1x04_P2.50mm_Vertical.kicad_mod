@@ -238,4 +238,28 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "${FLORI_KICAD_DIR}/3dmodels/Flori_Connector.3dshapes/HANBO_WAFER-XH254Z-4AH.step"
+		(hide yes)
+		(offset
+			(xyz 3.75 -0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${FLORI_KICAD_DIR}/3dmodels/Flori_Connector.3dshapes/HANBO_WAFER-XH254Z-4AL.step"
+		(hide yes)
+		(offset
+			(xyz 3.75 -0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
