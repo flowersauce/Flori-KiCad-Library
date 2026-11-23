@@ -15,3 +15,5 @@
 生成的兼容副本保留相同的上游署名信息。
 
 2026-11-15起，SOT-723几何已改用AKL版本，见[AKL来源与授权](Alternate-KiCad-Library-NOTICE.md)及[修正记录](../docs/audits/sot-723-akl-repair-2026-11-15.json)。此前导入记录作为历史快照保留。
+
+XUNPU XH2.54 和 KANGNEX WJ124 的六款第三方 STEP 见[连接器模型来源记录](../docs/audits/README.md#xunpu-xh254-与-kangnex-wj124-封装)。

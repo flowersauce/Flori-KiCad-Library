@@ -8,7 +8,7 @@
 - `provenance/flori-migration.json`：当前库 ID 和路径与历史记录的对应关系。
 
 以上路径均相对于本包的 `resources/<包标识>/` 安装目录。
-STEP 文件保留原始字节和文件头声明。原始下载来源未记录的资源，仍按来源记录中的状态保留，
+未经后续处理的导入 STEP 文件保留原始字节和文件头声明。原始下载来源未记录的资源，仍按来源记录中的状态保留，
 包元数据中的混合授权说明不代表为这些资源新增或变更授权。
 
 导入封装仅调整资源引用，原有几何和模型变换参数保持。
@@ -20,3 +20,6 @@ SOT-723封装自2026-11-15改为AKL几何，并删除一条零长度外框线段
 2026-11-15，XUNPU TYPEC-304A-ACP16L的STEP模型移除外壳顶面文字/Logo实体，
 保留连接器结构实体及原始文件头来源元数据；这份模型不再与原始导入字节相同。
 修改与验证记录见`provenance/typec-logo-removal.json`，不改变原资源的授权状态。
+
+XUNPU XH2.54 和 KANGNEX WJ124 的六款第三方 STEP 保留嘉立创 EDA PCB 导出来源，不适用仓库 MIT 授权。
+提取与修改说明见[连接器模型来源记录](https://github.com/flowersauce/Flori-KiCad-Library/blob/main/docs/audits/README.md#xunpu-xh254-与-kangnex-wj124-封装)。

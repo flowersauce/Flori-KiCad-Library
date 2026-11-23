@@ -313,4 +313,15 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
+	(model "${FLORI_KICAD_DIR}/3dmodels/Flori_Connector.3dshapes/TerminalBlock_KANGNEX_WJ124-3.81-02P-14-00A_1x02_P3.81mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

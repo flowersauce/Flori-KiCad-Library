@@ -307,4 +307,15 @@
 		(roundrect_rratio 0.138889)
 	)
 	(embedded_fonts no)
+	(model "${FLORI_KICAD_DIR}/3dmodels/Flori_Connector.3dshapes/XUNPU_XH2.54-4PWT_1x04-1MP_P2.50mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
