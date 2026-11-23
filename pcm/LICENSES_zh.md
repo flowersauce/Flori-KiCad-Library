@@ -21,5 +21,5 @@ SOT-723封装自2026-11-15改为AKL几何，并删除一条零长度外框线段
 保留连接器结构实体及原始文件头来源元数据；这份模型不再与原始导入字节相同。
 修改与验证记录见`provenance/typec-logo-removal.json`，不改变原资源的授权状态。
 
-XUNPU XH2.54 和 KANGNEX WJ124 的六款第三方 STEP 保留嘉立创 EDA PCB 导出来源，不适用仓库 MIT 授权。
-提取与修改说明见[连接器模型来源记录](https://github.com/flowersauce/Flori-KiCad-Library/blob/main/docs/audits/README.md#xunpu-xh254-与-kangnex-wj124-封装)。
+[HANBO WAFER-XH254Z 立式直插封装](https://github.com/flowersauce/Flori-KiCad-Library/blob/main/docs/audits/README.md#hanbo-wafer-xh254z-立式直插)基于 KiCad 库的 JST XH 封装修改，沿用 KiCad 元件库授权和例外条款。
+[XUNPU XH2.54 贴片](https://github.com/flowersauce/Flori-KiCad-Library/blob/main/docs/audits/README.md#xunpu-xh254-贴片封装)和 HANBO WAFER-XH254Z 的第三方 STEP 保留嘉立创 EDA PCB 导出来源，不适用仓库 MIT 授权。
